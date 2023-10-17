@@ -3,6 +3,12 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+/* head image */
+
+/* .head11{
+ margin-top: -300px;
+} */
+
 @media screen and (min-width: 1400px) {
   .head11 {
     margin-top: -230px;
@@ -48,7 +54,7 @@ body {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) and (min-width: 430px) {
   .head11 {
     margin-top: -20px;
   }
@@ -57,6 +63,27 @@ body {
   }
 }
 
+@media screen and (max-width: 429px) {
+  .head11 {
+    margin-top: -2px;
+  }
+  .con_1 {
+    margin-top: -66%;   
+  }
+}
+
+
+
+
+/* .head_img1>img{
+margin-top: 40%;
+
+} */
+
+
+/* img-fluid{
+  margin-top: -40px;
+} */
 
 /* Navbar */
 
@@ -80,6 +107,13 @@ width: 100%;
   font-weight: bold;
   text-align: right;
 }
+
+/* .right>img{
+  width: 450px;
+height: 100px;
+} */
+
+/*  end row 2 nav2 */
 
 .items > h3 {
   font-size: 16pt;
