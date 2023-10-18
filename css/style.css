@@ -82,8 +82,8 @@ width: 100%;
   flex-wrap: wrap;
 }
 .left > img {
-  width: 150px;
-  height: 100px;
+  /* width: 150px;
+  height: 100px; */
   align-items: start;
 }
 
@@ -154,16 +154,14 @@ width: 100%;
 
 /* Footer */
 
-
-
-.footer_img {
-  width: 100vw;
-}
 .bg-clr{
-  background-color: orange;
+  background-color:#f15d2a;
 }
 
 .icon_img{
-  width: 50px;
-  height: 40;
+  width: 15%;
+  
+}
+.footer_align{
+  
 }
