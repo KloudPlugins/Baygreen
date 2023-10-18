@@ -1,13 +1,6 @@
-*html,
-body {
-  font-family: "Oswald", sans-serif;
+*{
+  font-family: 'Oswald', sans-serif;
 }
-
-/* head image */
-
-/* .head11{
- margin-top: -300px;
-} */
 
 @media screen and (min-width: 1400px) {
   .head11 {
@@ -74,18 +67,6 @@ body {
 }
 
 
-
-
-/* .head_img1>img{
-margin-top: 40%;
-
-} */
-
-
-/* img-fluid{
-  margin-top: -40px;
-} */
-
 /* Navbar */
 
 .bg_container{
@@ -109,10 +90,6 @@ width: 100%;
   text-align: right;
 }
 
-/* .right>img{
-  width: 450px;
-height: 100px;
-} */
 
 /*  end row 2 nav2 */
 
@@ -158,9 +135,16 @@ height: 100px;
   opacity: 0.9;
 }
 
+
+/* Footer */
+
+
 .footer1 {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .footer_img {
   width: 100%;
+}
+.footer-item{
+  background-color: orange;
 }
