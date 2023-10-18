@@ -94,10 +94,10 @@ width: 100%;
   text-align: right;
 }
 .right>span{
-  /* font-size: 25px; */
+  font-size: 2vw;
   color: green;
   font-weight: bold;
-  text-align: left;
+  text-align: right;
 
 }
 
