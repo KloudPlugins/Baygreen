@@ -68,16 +68,16 @@
     margin-top: -20px;
   }
   .con_1 {
-    margin-top: -59%;   
+    margin-top: -57%;   
   }
 }
 
 @media screen and (max-width: 429px) {
   .head11 {
-    margin-top: -2px;
+    margin-top: -10px;
   }
   .con_1 {
-    margin-top: -66%;   
+    margin-top: -58%;   
   }
 }
 
