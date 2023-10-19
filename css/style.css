@@ -159,9 +159,10 @@ width: 100%;
 }
 
 .icon_img{
-  width: 15%;
+  width: 2vw;
   
 }
-.footer_align{
+.footer_align >span{
+  text-align: center;
   
 }
