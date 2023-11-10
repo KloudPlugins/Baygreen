@@ -132,29 +132,29 @@
 
             <div class="mb-1 text-white">
               <label  for="vessel_color"  class="form-label">Vessel Color (*required ) </label>
-              <input type="text" class="form-control" required placeholder="" name="vessel_color" id="vessel_color" maxlength="250" value="">
+              <input type="text" class="form-control" required  name="vessel_color" id="vessel_color" maxlength="250" value="">
             </div>
 
             <div class="mb-1 text-white">
               <label for="vessel_manufacturer_and_size" class="form-label">Vessel Manufacturer (*required ) </label>
-              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size" maxlength="250" value="" class="form-control" required placeholder="">
+              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size" maxlength="250" value="" class="form-control" required >
             </div>
 
             <div class="mb-1 text-white">
               <label for="dock_and_slip" class="form-label">Dock and Slip (*required ) </label>
-              <input  type="text" name="dock_and_slip" id="dock_and_slip" maxlength="250" value=""  class="form-control" required placeholder="">
+              <input  type="text" name="dock_and_slip" id="dock_and_slip" maxlength="250" value=""  class="form-control" required >
             </div>
 
             <div class="mb-1 text-white">
-              <label  for="cf_number__if_visible_on_boat_" class="form-label">CF Number (*if visible on boat ) </label>
-              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_" maxlength="250" value="" class="form-control" required placeholder="">
+              <label  for="cf_number__if_visible_on_boat_" class="form-label">CF Number (if visible on boat ) </label>
+              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_" maxlength="250" value="" class="form-control" >
             </div>
 
             <div class="mb-1 text-white">
-              <label id="vessel_type_fieldset" class="form-label">Vessel Type (*required ) </label>
+              <label id="vessel_type_fieldset"  class="form-label">Vessel Type (*required ) </label>
               </br>
 
-              <input class="form-check-input" type="radio" id="vessel_type1104290778" name="vessel_type" value="sail">
+              <input class="form-check-input" type="radio" id="vessel_type1104290778" required name="vessel_type" value="sail">
               <label for="vessel_type1104290778"  class="form-check-label">
                 Sail
               </label>
@@ -163,7 +163,7 @@
               <label for="vessel_type1783312036" class="form-check-label">
                 Power
               </label>
-              <input class="form-check-input" type="radio"id="vessel_type295052078" name="vessel_type" value="Houseboat">
+              <input class="form-check-input" checked  type="radio"id="vessel_type295052078" selected name="vessel_type" value="Houseboat">
               <label for="vessel_type295052078" class="form-check-label">
                 Houseboat
               </label>
@@ -392,7 +392,7 @@
                 <label for="tank_2_type594488993"  class="form-check-label">
                   Bag
                 </label>
-                <input class="form-check-input" type="radio"id="tank_2_type389479985" name="tank_2_type" value="I don't know">
+                <input class="form-check-input"  checked  type="radio"id="tank_2_type389479985" name="tank_2_type" value="I don't know">
                 <label for="tank_2_type389479985" class="form-check-label">
                   I don't know
                 </label>
@@ -515,6 +515,7 @@
                   function onLocationSelected(element, serviceDays) {
                     document.getElementById("location_other").value = "";
                     var sday = document.getElementById("service_day");
+                    alert(sday.innerHTML);
                     if (sday) {
                       sday.innerHTML = serviceDays;
                     }
@@ -1123,36 +1124,36 @@
             <h3 class="text-white mt-2 mb-1">Contact Information</h3>
             <div class="mb-1">
               <label class="form-label text-white">First Name (*required ) </label>
-              <input type="text" class="form-control" required placeholder="">
+              <input type="text" class="form-control" required >
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Last Name (*required ) </label>
-              <input type=" text" class="form-control" required placeholder="">
+              <input type=" text" class="form-control" required >
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Main Phone (*required ) </label>
-              <input type=" number" class="form-control" required placeholder="">
+              <input type=" number" class="form-control" required >
             </div>
             <div class="mb-1">
               <label class="form-label text-white"">Alternate  Phone</label>
-              <input type=" number" class="form-control" required placeholder="">
+              <input type=" number" class="form-control" required >
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Email (*required ) </label>
-              <input type=" email" class="form-control" required placeholder="">
+              <input type=" email" class="form-control" required >
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Password</label>
-              <input type=" password" class="form-control" required placeholder="">
+              <input type=" password" class="form-control" required >
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Conform Password</label>
-              <input type=" password" class="form-control" required placeholder="">
+              <input type=" password" class="form-control" required >
             </div>
             <div class="mb-1">
               <label class="form-label text-white"">How did you hear aboutb us ? (*required ) </label>
@@ -1180,13 +1181,13 @@
             <div class="mb-1">
               <h3 class="text-white mt-2 mb-1">Billing Information</h3>
               <se class="form-label text-white"">Billing Address  (*required ) </label>
-              <input type=" password" class="form-control" required placeholder="">
+              <input type=" password" class="form-control" required >
 
             </div>
             <div class="mb-1">
 
               <label class="form-label text-white"">City (*required ) </label>
-              <input type=" password" class="form-control" required placeholder="">
+              <input type=" password" class="form-control" required >
 
             </div>
 
@@ -1257,13 +1258,13 @@
             <div class="mb-1">
 
               <label class="form-label text-white""> Zip Code (*required ) </label>
-            <input type=" password" class="form-control" required placeholder="">
+            <input type=" password" class="form-control" required >
             </div>
 
             <div class="mb-1 text-white">
               <label class="form-label text-white""> Billing (*required) </label>
             <br/>
-            <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <input class=" form-check-input" checked  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Email (Free!)
                 </label>
