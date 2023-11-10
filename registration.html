@@ -126,45 +126,45 @@
           <form>
             <h3 class="text-white mt-2 mb-1">Vessel Information</h3>
             <div class="mb-1 text-white">
-              <label class="form-label">Vessel Name (*required ) </label>
-              <input type="text" class="form-control" required placeholder="">
+              <label for="vessel_name" class="form-label">Vessel Name (*required ) </label>
+              <input type="text" class="form-control" required name="vessel_name" id="vessel_name" maxlength="250" value="" >
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">Vessel Color (*required ) </label>
-              <input type="text" class="form-control" required placeholder="">
+              <label  for="vessel_color"  class="form-label">Vessel Color (*required ) </label>
+              <input type="text" class="form-control" required placeholder="" name="vessel_color" id="vessel_color" maxlength="250" value="">
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">Vessel Manufacturer (*required ) </label>
-              <input type="text" class="form-control" required placeholder="">
+              <label for="vessel_manufacturer_and_size" class="form-label">Vessel Manufacturer (*required ) </label>
+              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size" maxlength="250" value="" class="form-control" required placeholder="">
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">Dock and Slip (*required ) </label>
-              <input type="text" class="form-control" required placeholder="">
+              <label for="dock_and_slip" class="form-label">Dock and Slip (*required ) </label>
+              <input  type="text" name="dock_and_slip" id="dock_and_slip" maxlength="250" value=""  class="form-control" required placeholder="">
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">CF Number (*if visible on boat ) </label>
-              <input type="number" class="form-control" required placeholder="">
+              <label  for="cf_number__if_visible_on_boat_" class="form-label">CF Number (*if visible on boat ) </label>
+              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_" maxlength="250" value="" class="form-control" required placeholder="">
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">Vessel Type (*required ) </label>
+              <label id="vessel_type_fieldset" class="form-label">Vessel Type (*required ) </label>
               </br>
 
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+              <input class="form-check-input" type="radio" id="vessel_type1104290778" name="vessel_type" value="sail">
+              <label for="vessel_type1104290778"  class="form-check-label">
                 Sail
               </label>
 
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+              <input  class="form-check-input" type="radio" id="vessel_type1783312036" name="vessel_type" value="Power">
+              <label for="vessel_type1783312036" class="form-check-label">
                 Power
               </label>
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+              <input class="form-check-input" type="radio"id="vessel_type295052078" name="vessel_type" value="Houseboat">
+              <label for="vessel_type295052078" class="form-check-label">
                 Houseboat
               </label>
 
@@ -173,13 +173,13 @@
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">
+              <label for="tank_1_size" class="form-label">
                 <h3 class="mt-2">First Tank (*required ) </h3>
               </label>
               <br />
               Tank 1 Size (*required)
 
-              <select name="tank_1_size" id="tank_1_size" class="form-select" aria-label="Default select example">
+              <select name="tank_1_size" id="tank_1_size" class="form-select">
                 <option value="" selected="selected"></option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -259,46 +259,45 @@
                 </table>
               </div>
 
+
               <div class="mb-1 text-white">
-                <label class="form-label">Tank 1 Type (*required) </label>
+                <label class="form-label" id="tank_1_type_fieldset">Tank 1 Type (*required) </label>
                 </br>
 
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"id="tank_1_type1936202210" name="tank_1_type" value="Stainless Steel">
+                <label for="tank_1_type1936202210" class="form-check-label">
                   Stainless Steel
                 </label>
 
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"id="tank_1_type791382247" name="tank_1_type" value="Plastic">
+                <label  for="tank_1_type791382247" class="form-check-label" >
                   Plastic
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"id="tank_1_type1403848802" name="tank_1_type" value="Fiberglass">
+                <label for="tank_1_type1403848802" class="form-check-label" >
                   Fiberglass
                 </label>
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"id="tank_1_type594488993" name="tank_1_type" value="Bag">
+                <label for="tank_1_type594488993" class="form-check-label" >
                   Bag
                 </label>
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"<input class="form-check-input" type="radio"id="tank_1_type389479985" name="tank_1_type" value="I don't know">
+                <label for="tank_1_type389479985"  class="form-check-label" >
                   I don't know
                 </label>
 
-
-
-
               </div>
-
 
             </div>
 
             <div class="mb-1 text-white">
-              <label class="form-label">
+              <label for="tank_2_size" class="form-label">
                 <h3 class="mt-2">Second Tank (*required ) </h3>
               </label>
               <br />
               Tank 2 Size
 
-              <select name="tank_1_size" id="tank_1_size" class="form-select" aria-label="Default select example">
+              <select  name="tank_2_size" id="tank_2_size" class="form-select" aria-label="Default select example">
                 <option value="" selected="selected">I just have one tank</option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -342,36 +341,30 @@
                   <tbody>
                     <tr>
                       <td>
-                        <label title="port;aft" for="tank_1_location4106502019" class="tank_0_0">
-                          <input type="radio" id="tank_1_location4106502019" name="tank_1_location"
-                            value="port;aft"></label>
+                        <label title="port;aft" for="tank_2_location4106502019" class="tank_0_0">
+                          <input type="radio" id="tank_2_location4106502019" name="tank_2_location" value="port;aft"></label>
                       </td>
                       <td>
-                        <label title="port;mid" for="tank_1_location1743899212" class="tank_0_1">
-                          <input type="radio" id="tank_1_location1743899212" name="tank_1_location"
-                            value="port;mid"></label>
+                        <label title="port;mid" for="tank_2_location1743899212" class="tank_0_1">
+                          <input type="radio" id="tank_2_location1743899212" name="tank_2_location" value="port;mid"></label>
                       </td>
                       <td>
-                        <label title="port;forward" for="tank_1_location1629117898" class="tank_0_2">
-                          <input type="radio" id="tank_1_location1629117898" name="tank_1_location"
-                            value="port;forward"></label>
+                        <label title="port;forward" for="tank_2_location1629117898" class="tank_0_2">
+                          <input type="radio" id="tank_2_location1629117898" name="tank_2_location" value="port;forward"></label>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <label title="starboard;aft" for="tank_1_location987199118" class="tank_1_0">
-                          <input type="radio" id="tank_1_location987199118" name="tank_1_location"
-                            value="starboard;aft"></label>
+                        <label title="starboard;aft" for="tank_2_location987199118" class="tank_1_0">
+                          <input type="radio" id="tank_2_location987199118" name="tank_2_location" value="starboard;aft"></label>
                       </td>
                       <td>
-                        <label title="starboard;mid" for="tank_1_location2850194241" class="tank_1_1">
-                          <input type="radio" id="tank_1_location2850194241" name="tank_1_location"
-                            value="starboard;mid"></label>
+                        <label title="starboard;mid" for="tank_2_location2850194241" class="tank_1_1">
+                          <input type="radio" id="tank_2_location2850194241" name="tank_2_location" value="starboard;mid"></label>
                       </td>
                       <td>
-                        <label title="starboard;forward" for="tank_1_location4043873661" class="tank_1_2">
-                          <input type="radio" id="tank_1_location4043873661" name="tank_1_location"
-                            value="starboard;forward"></label>
+                        <label title="starboard;forward" for="tank_2_location4043873661" class="tank_1_2">
+                          <input type="radio" id="tank_2_location4043873661" name="tank_2_location" value="starboard;forward"></label>
                       </td>
                     </tr>
                   </tbody>
@@ -522,12 +515,7 @@
                   I don't know
                 </label>
 
-
-
-
               </div>
-
-
             </div>
 
             <div class="mb-1 text-white">
@@ -536,7 +524,6 @@
                 </h3>
               </label>
               </br>
-
             
               <ul>
                 <li><span class="city_denotation">Alameda, Eastside / Inner Harbor</span>
@@ -775,11 +762,11 @@
                           href="http://www.baymarineboatworks.com/">Website</a>)
                       </label>
                     </div>
-                    <li class="location_form_option"><input type="radio"
+                    <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3364522967'),'Channel Marina Service Day: Monday');"
                         name="location" value="Channel Marina" id="location_3364522967">
                       <label style="display:inline;" for="location_3364522967">Channel Marina </label>
-                    </li>
+                    </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2675886455'),'KKMI Point Richmond Service Day: Monday');"
                         name="location" value="KKMI Point Richmond" id="location_2675886455">
