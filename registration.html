@@ -500,13 +500,43 @@
                   Fiberglass
                 </label>
 
-                <!-- Till 1:11 -->
-                <label class="form-check-label" for="flexRadioDefault1">
+                
+                <input class="form-check-input" type="radio"id="tank_3_type594488993" name="tank_3_type" value="Bag">
+                
+                <label class="form-check-label"for="tank_3_type594488993">
                   Bag
                 </label>
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"  id="tank_3_type389479985" name="tank_3_type" value="I don't know">
+                <label class="form-check-label" for="tank_3_type389479985">
                   I don't know
                 </label>
+
+                <script type="text/javascript">
+                  function onLocationSelected(element, serviceDays) {
+                    document.getElementById("location_other").value = "";
+                    var sday = document.getElementById("service_day");
+                    if (sday) {
+                      sday.innerHTML = serviceDays;
+                    }
+                    if (element.value == "Berkeley Marina") {
+                      document.getElementById("pump_out_log_reporting_fieldset").style.display = "none";
+                      document.getElementById("pump_out_log_reporting_for_berkeley_marina_fieldset").style.display = "block";
+                    } else {
+                      document.getElementById("pump_out_log_reporting_for_berkeley_marina_fieldset").style.display = "none";
+                      document.getElementById("pump_out_log_reporting_fieldset").style.display = "block";
+                    }
+                  }
+                  function onLocationOtherSelected(element, serviceDays) {
+                    var locationElements = document.getElementsByName("location");
+                    for (var i = 0; i < locationElements.length; i++) {
+                      locationElements[i].checked = false;
+                    }
+                    if (sday) {
+                      sday.innerHTML = "Service days: We'll contact you";
+                    }
+                  }
+                  </script>
+                  
 
               </div>
             </div>
@@ -978,9 +1008,6 @@
                 </li>
               </ul>
 
-
-
-
             </div>
 
 
@@ -988,11 +1015,9 @@
               <label class="form-label">
                 <h3 class="mt-2">Schedule Your Service</h3>
               </label>
-              <br />
-              <p> Fortman Service Day: Wednesday
-              </p>
-              <p>Service Requested (*required)</p>
-
+              <span id="service_day"></span>
+            <label for="service_requested">Service Requested <span class="required">(*required)</span></label>
+           
 
               <select name="service_requested" id="service_requested" class="form-select"
                 aria-label="Default select example">
@@ -1010,8 +1035,8 @@
 
               <div class="mb-1">
 
-                <p>Service Requested (*required)</p>
-
+                <label for="service_start">Service Start <span class="required">(*required)</span></label>
+        
 
                 <select name="service_start" id="service_start" class="form-select" aria-label="Default select example">
                   <option value="" selected="selected"></option>
@@ -1021,37 +1046,28 @@
                     Service form</option>
                   <option value="Emergency Service (we'll contact you)">Emergency Service (we'll contact you)</option>
                 </select>
-
-
-
-
-
               </div>
-
-
             </div>
 
             <div class="mb-1 text-white">
               <label class="form-label">
-                <h3 class="mt-2">Pump-out log reporting</h3>
+                <h3 class="mt-2" id="pump_out_log_reporting_header">Pump-out log reporting</h3>
               </label>
               <br />
               <p> If your marina has a required pump-out log reporting program, we can supply this directly to your
                 harbormaster for you.
               </p>
 
-             
-
-
               <div class="mb-1">
 
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" type="radio"  id="pump_out_log_reporting3263366671" name="pump_out_log_reporting" value="Yes, please do this for me">
+
+              <label class="form-check-label" for="pump_out_log_reporting3263366671">
                 Yes, please do this for me
               </label>
 <br/>
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+              <input class="form-check-input" type="radio" id="pump_out_log_reporting448153154" name="pump_out_log_reporting" value="No, I'll take care of it">
+              <label class="form-check-label" for="pump_out_log_reporting448153154">
                 No, I'll take care of it
               </label>
               </div>
@@ -1061,12 +1077,12 @@
 
 
             <div class="mb-1 text-white">
-              <label class="form-label">
+              <label class="form-label"  id="pump_out_log_reporting_for_berkeley_marina_fieldset">
                 <h3 class="mt-2">Additional Information</h3>
               </label>
               <br />
               <div class="form-outline">
-                <textarea class="form-control" id="textAreaExample1" rows="4">Messages</textarea>
+                <textarea class="form-control" name="additional_info" cols="60"  id="textAreaExample1" rows="4" placeholder=" Write Your Message"></textarea>
                
               </div>
 
