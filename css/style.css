@@ -204,6 +204,25 @@ width: 100%;
   padding-right: 15px; 
 }
 
+.items >form > h6 {
+  /* font-weight: 700 !important; */
+  font-size: 16pt;
+  color:#f15d2a; 
+  text-align:left;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+form > h6 {
+  /* font-weight: 700 !important; */
+  font-size: 16pt;
+  color:#f15d2a; 
+  text-align:left;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+
 .box1 {
   background-color: #483d8b;
   opacity: 0.9;
@@ -227,6 +246,10 @@ width: 100%;
 .box6 {
   background-color: #006400;
   opacity: 0.9;
+}
+
+.reg_box{
+background-color:#006400  ;
 }
 
 /* Footer */

@@ -1,7 +1,7 @@
 
 Hi Kalim, this is looking great! I'm a bit concerned about readability (my choice in font and color background), so have a few changes now and may have more later due to feedback.
 
-For now, let's make the last block / Contact our Dark Green 006400
+For now, let's make the last block / Contact our Dark Green 006400 (Resitrstion page) ( ✔ Done )
 
 2. I also feel that the sections get a bit lost--let's try our orange arrows between the sections "Vessel Information" "Vessel Location" and so on
 
