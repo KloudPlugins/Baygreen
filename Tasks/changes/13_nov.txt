@@ -1,13 +1,13 @@
 
 Hi Kalim, this is looking great! I'm a bit concerned about readability (my choice in font and color background), so have a few changes now and may have more later due to feedback.
 
-For now, let's make the last block / Contact our Dark Green 006400 (Resitrstion page) ( ✔ Done )
+For now, let's make the last block / Contact our Dark Green 006400 (Resitrstion page) 
 
-2. I also feel that the sections get a bit lost--let's try our orange arrows between the sections "Vessel Information" "Vessel Location" and so on
+2. I also feel that the sections get a bit lost--let's try our orange arrows between the sections "Vessel Information" "Vessel Location" and so on     
 
-3. I'd also like to get a bit more spacing between each of the entry fields, "Vessel Name (*required )" and the header, "Vessel Color (*required )" and the entry box of "Vessel Name (*required )"--basically visually grouping the sections together so the client doesn't confuse what they are entering, like this...
+3. I'd also like to get a bit more spacing between each of the entry fields, "Vessel Name (*required )" and the header, "Vessel Color (*required )" and the entry box of "Vessel Name (*required )"--basically visually grouping the sections together so the client doesn't confuse what they are entering, like this... 
 
-4. Let's also have "Vessel Information" and "Contact" align with "Register". I've set up "Vessel Information" as an example (and "Contact" is where it is showing now)...
+4. Let's also have "Vessel Information" and "Contact" align with "Register". I've set up "Vessel Information" as an example (and "Contact" is where it is showing now)... 
 
 (yes! last section of reg page)
 

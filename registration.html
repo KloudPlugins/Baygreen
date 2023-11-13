@@ -120,50 +120,61 @@
         <!-- 😊 Second Col Started -->
 
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box2">
-          <form>
-            <h3 class="text-white mt-3 mb-1 ">Vessel Information</h3>
+          <form> 
+            <h4 class="text-white mt-3 mb-0  ">VESSEL INFORMATION</h4>
 
-            <h6 class="mb-0">>>>>>>>>>>>>>></h6>
+            <h4 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h4>
 
-            <div class="mb-1 text-white">
+            <div class="mb-3 text-white">
               <label for="vessel_name" class="form-label">Vessel Name (*required ) </label>
-              <input type="text" class="form-control" required name="vessel_name" id="vessel_name" maxlength="250" value="" >
+              <input type="text" class="form-control" required name="vessel_name" id="vessel_name" maxlength="250"
+                value="">
             </div>
 
-            <div class="mb-1 text-white">
-              <label  for="vessel_color"  class="form-label">Vessel Color (*required ) </label>
-              <input type="text" class="form-control" required  name="vessel_color" id="vessel_color" maxlength="250" value="">
+
+            <div class="mb-3 text-white">
+              <label for="vessel_color" class="form-label">Vessel Color (*required ) </label>
+              <input type="text" class="form-control" required name="vessel_color" id="vessel_color" maxlength="250"
+                value="">
             </div>
 
-            <div class="mb-1 text-white">
+
+            <div class="mb-3 text-white">
               <label for="vessel_manufacturer_and_size" class="form-label">Vessel Manufacturer (*required ) </label>
-              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size" maxlength="250" value="" class="form-control" required >
+              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size" maxlength="250"
+                value="" class="form-control" required>
             </div>
 
-            <div class="mb-1 text-white">
+
+            <div class="mb-3 text-white">
               <label for="dock_and_slip" class="form-label">Dock and Slip (*required ) </label>
-              <input  type="text" name="dock_and_slip" id="dock_and_slip" maxlength="250" value=""  class="form-control" required >
+              <input type="text" name="dock_and_slip" id="dock_and_slip" maxlength="250" value="" class="form-control"
+                required>
             </div>
 
-            <div class="mb-1 text-white">
-              <label  for="cf_number__if_visible_on_boat_" class="form-label">CF Number (if visible on boat ) </label>
-              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_" maxlength="250" value="" class="form-control" >
+
+            <div class="mb-3 text-white">
+              <label for="cf_number__if_visible_on_boat_" class="form-label">CF Number (if visible on boat ) </label>
+              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_"
+                maxlength="250" value="" class="form-control">
             </div>
 
-            <div class="mb-1 text-white">
-              <label id="vessel_type_fieldset"  class="form-label">Vessel Type (*required ) </label>
-              </br>
 
-              <input class="form-check-input" type="radio" id="vessel_type1104290778" required name="vessel_type" value="sail">
-              <label for="vessel_type1104290778"  class="form-check-label">
+            <div class="mb-3 text-white">
+              <label id="vessel_type_fieldset" class="form-label">Vessel Type (*required ) </label>
+
+              <input class="form-check-input" type="radio" id="vessel_type1104290778" required name="vessel_type"
+                value="sail">
+              <label for="vessel_type1104290778" class="form-check-label">
                 Sail
               </label>
 
-              <input  class="form-check-input" type="radio" id="vessel_type1783312036" name="vessel_type" value="Power">
+              <input class="form-check-input" type="radio" id="vessel_type1783312036" name="vessel_type" value="Power">
               <label for="vessel_type1783312036" class="form-check-label">
                 Power
               </label>
-              <input class="form-check-input" checked  type="radio"id="vessel_type295052078" selected name="vessel_type" value="Houseboat">
+              <input class="form-check-input" checked type="radio" id="vessel_type295052078" selected name="vessel_type"
+                value="Houseboat">
               <label for="vessel_type295052078" class="form-check-label">
                 Houseboat
               </label>
@@ -174,9 +185,12 @@
 
             <div class="mb-1 text-white">
               <label for="tank_1_size" class="form-label">
-                <h3 class="mt-2">First Tank (*required ) </h3>
+                <h3 class="mt-2">FIRST TANK (*required ) </h3>
+
+
+
               </label>
-              <br />
+
               Tank 1 Size (*required)
 
               <select name="tank_1_size" id="tank_1_size" class="form-select">
@@ -214,9 +228,9 @@
 
               <div class="mb-1">
                 <label class="form-label">
-                  <h4>Tank 1 Location </h4>
+                  <h4 class="mt-3">Tank 1 Location </h4>
 
-                  <h6 class="mb-0 text-danger display-6 ">>>>>>>>>>>>>>></h6>
+               
 
                 </label>
                 <br />
@@ -267,25 +281,29 @@
                 <label class="form-label" id="tank_1_type_fieldset">Tank 1 Type (*required) </label>
                 </br>
 
-                <input class="form-check-input" type="radio"id="tank_1_type1936202210" name="tank_1_type" value="Stainless Steel">
+                <input class="form-check-input" type="radio" id="tank_1_type1936202210" name="tank_1_type"
+                  value="Stainless Steel">
                 <label for="tank_1_type1936202210" class="form-check-label">
                   Stainless Steel
                 </label>
 
-                <input class="form-check-input" type="radio"id="tank_1_type791382247" name="tank_1_type" value="Plastic">
-                <label  for="tank_1_type791382247" class="form-check-label" >
+                <input class="form-check-input" type="radio" id="tank_1_type791382247" name="tank_1_type"
+                  value="Plastic">
+                <label for="tank_1_type791382247" class="form-check-label">
                   Plastic
                 </label>
-                <input class="form-check-input" type="radio"id="tank_1_type1403848802" name="tank_1_type" value="Fiberglass">
-                <label for="tank_1_type1403848802" class="form-check-label" >
+                <input class="form-check-input" type="radio" id="tank_1_type1403848802" name="tank_1_type"
+                  value="Fiberglass">
+                <label for="tank_1_type1403848802" class="form-check-label">
                   Fiberglass
                 </label>
-                <input class="form-check-input" type="radio"id="tank_1_type594488993" name="tank_1_type" value="Bag">
-                <label for="tank_1_type594488993" class="form-check-label" >
+                <input class="form-check-input" type="radio" id="tank_1_type594488993" name="tank_1_type" value="Bag">
+                <label for="tank_1_type594488993" class="form-check-label">
                   Bag
                 </label>
-                <input class="form-check-input" type="radio"<input class="form-check-input" type="radio"id="tank_1_type389479985" name="tank_1_type" value="I don't know">
-                <label for="tank_1_type389479985"  class="form-check-label" >
+                <input class="form-check-input" type="radio" <input class="form-check-input" type="radio"
+                  id="tank_1_type389479985" name="tank_1_type" value="I don't know">
+                <label for="tank_1_type389479985" class="form-check-label">
                   I don't know
                 </label>
 
@@ -295,12 +313,12 @@
 
             <div class="mb-1 text-white">
               <label for="tank_2_size" class="form-label">
-                <h3 class="mt-2">Second Tank (*required ) </h3>
+                <h3 class="mt-2">SECOND TANK (*required ) </h3>
               </label>
               <br />
               Tank 2 Size
 
-              <select  name="tank_2_size" id="tank_2_size" class="form-select" aria-label="Default select example">
+              <select name="tank_2_size" id="tank_2_size" class="form-select" aria-label="Default select example">
                 <option value="" selected="selected">I just have one tank</option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -335,7 +353,8 @@
 
               <div class="mb-1">
                 <label class="form-label">
-                  <h4>Tank 2 Location </h4>
+                  <h4 class="mt-2">Tank 2 Location </h4>
+                 
                 </label>
                 <br />
                 Click on the Boat to select The Location .
@@ -345,29 +364,35 @@
                     <tr>
                       <td>
                         <label title="port;aft" for="tank_2_location4106502019" class="tank_0_0">
-                          <input type="radio" id="tank_2_location4106502019" name="tank_2_location" value="port;aft"></label>
+                          <input type="radio" id="tank_2_location4106502019" name="tank_2_location"
+                            value="port;aft"></label>
                       </td>
                       <td>
                         <label title="port;mid" for="tank_2_location1743899212" class="tank_0_1">
-                          <input type="radio" id="tank_2_location1743899212" name="tank_2_location" value="port;mid"></label>
+                          <input type="radio" id="tank_2_location1743899212" name="tank_2_location"
+                            value="port;mid"></label>
                       </td>
                       <td>
                         <label title="port;forward" for="tank_2_location1629117898" class="tank_0_2">
-                          <input type="radio" id="tank_2_location1629117898" name="tank_2_location" value="port;forward"></label>
+                          <input type="radio" id="tank_2_location1629117898" name="tank_2_location"
+                            value="port;forward"></label>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <label title="starboard;aft" for="tank_2_location987199118" class="tank_1_0">
-                          <input type="radio" id="tank_2_location987199118" name="tank_2_location" value="starboard;aft"></label>
+                          <input type="radio" id="tank_2_location987199118" name="tank_2_location"
+                            value="starboard;aft"></label>
                       </td>
                       <td>
                         <label title="starboard;mid" for="tank_2_location2850194241" class="tank_1_1">
-                          <input type="radio" id="tank_2_location2850194241" name="tank_2_location" value="starboard;mid"></label>
+                          <input type="radio" id="tank_2_location2850194241" name="tank_2_location"
+                            value="starboard;mid"></label>
                       </td>
                       <td>
                         <label title="starboard;forward" for="tank_2_location4043873661" class="tank_1_2">
-                          <input type="radio" id="tank_2_location4043873661" name="tank_2_location" value="starboard;forward"></label>
+                          <input type="radio" id="tank_2_location4043873661" name="tank_2_location"
+                            value="starboard;forward"></label>
                       </td>
                     </tr>
                   </tbody>
@@ -378,24 +403,28 @@
                 <label class="form-label" id="tank_2_type_fieldset">Tank 2 Type </label>
                 </br>
 
-                <input class="form-check-input" type="radio"id="tank_2_type1936202210" name="tank_2_type" value="Stainless Steel">
-                <label for="tank_2_type1936202210"  class="form-check-label" >
+                <input class="form-check-input" type="radio" id="tank_2_type1936202210" name="tank_2_type"
+                  value="Stainless Steel">
+                <label for="tank_2_type1936202210" class="form-check-label">
                   Stainless Steel
                 </label>
 
-                <input class="form-check-input" type="radio"id="tank_2_type791382247" name="tank_2_type" value="Plastic">
-                <label  for="tank_2_type791382247" class="form-check-label" >
+                <input class="form-check-input" type="radio" id="tank_2_type791382247" name="tank_2_type"
+                  value="Plastic">
+                <label for="tank_2_type791382247" class="form-check-label">
                   Plastic
                 </label>
-                <input class="form-check-input" type="radio"id="tank_2_type1403848802" name="tank_2_type" value="Fiberglass">
+                <input class="form-check-input" type="radio" id="tank_2_type1403848802" name="tank_2_type"
+                  value="Fiberglass">
                 <label for="tank_2_type1403848802" class="form-check-label">
                   Fiberglass
                 </label>
                 <input class="form-check-input" type="radio" id="tank_2_type594488993" name="tank_2_type" value="Bag">
-                <label for="tank_2_type594488993"  class="form-check-label">
+                <label for="tank_2_type594488993" class="form-check-label">
                   Bag
                 </label>
-                <input class="form-check-input"  checked  type="radio"id="tank_2_type389479985" name="tank_2_type" value="I don't know">
+                <input class="form-check-input" checked type="radio" id="tank_2_type389479985" name="tank_2_type"
+                  value="I don't know">
                 <label for="tank_2_type389479985" class="form-check-label">
                   I don't know
                 </label>
@@ -404,11 +433,11 @@
             </div>
 
 
-            <div class="mb-1 text-white">
+            <div class="mb-3 text-white">
               <label for="tank_3_size" class="form-label">
-                <h3 class="mt-2">Third Tank (*required ) </h3>
+                <h3 class="mt-2">THIRD TANK (*required ) </h3>
               </label>
-              <br />
+
               Tank 3 Size
 
               <select name="tank_3_size" id="tank_3_size" class="form-select" aria-label="Default select example">
@@ -447,6 +476,8 @@
               <div class="mb-1">
                 <label class="form-label">
                   <h4>Tank 3 Location </h4>
+
+
                 </label>
                 <br />
                 Click on the Boat to select The Location .
@@ -456,29 +487,35 @@
                     <tr>
                       <td>
                         <label title="port;aft" for="tank_3_location4106502019" class="tank_0_0">
-                          <input type="radio" id="tank_3_location4106502019" name="tank_3_location" value="port;aft"></label>
+                          <input type="radio" id="tank_3_location4106502019" name="tank_3_location"
+                            value="port;aft"></label>
                       </td>
                       <td>
                         <label title="port;mid" for="tank_3_location1743899212" class="tank_0_1">
-                          <input type="radio" id="tank_3_location1743899212" name="tank_3_location" value="port;mid"></label>
+                          <input type="radio" id="tank_3_location1743899212" name="tank_3_location"
+                            value="port;mid"></label>
                       </td>
                       <td>
                         <label title="port;forward" for="tank_3_location1629117898" class="tank_0_2">
-                          <input type="radio" id="tank_3_location1629117898" name="tank_3_location" value="port;forward"></label>
+                          <input type="radio" id="tank_3_location1629117898" name="tank_3_location"
+                            value="port;forward"></label>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <label title="starboard;aft" for="tank_3_location987199118" class="tank_1_0">
-                          <input type="radio" id="tank_3_location987199118" name="tank_3_location" value="starboard;aft"></label>
+                          <input type="radio" id="tank_3_location987199118" name="tank_3_location"
+                            value="starboard;aft"></label>
                       </td>
                       <td>
                         <label title="starboard;mid" for="tank_3_location2850194241" class="tank_1_1">
-                          <input type="radio" id="tank_3_location2850194241" name="tank_3_location" value="starboard;mid"></label>
+                          <input type="radio" id="tank_3_location2850194241" name="tank_3_location"
+                            value="starboard;mid"></label>
                       </td>
                       <td>
                         <label title="starboard;forward" for="tank_3_location4043873661" class="tank_1_2">
-                          <input type="radio" id="tank_3_location4043873661" name="tank_3_location" value="starboard;forward"></label>
+                          <input type="radio" id="tank_3_location4043873661" name="tank_3_location"
+                            value="starboard;forward"></label>
                       </td>
                     </tr>
                   </tbody>
@@ -489,27 +526,31 @@
                 <label id="tank_3_type_fieldset" class="form-label">Tank 3 Type </label>
                 </br>
 
-                <input class="form-check-input" type="radio"id="tank_3_type1936202210" name="tank_3_type" value="Stainless Steel">
+                <input class="form-check-input" type="radio" id="tank_3_type1936202210" name="tank_3_type"
+                  value="Stainless Steel">
                 <label for="tank_3_type1936202210" class="form-check-label">
                   Stainless Steel
                 </label>
 
-                <input class="form-check-input" type="radio" id="tank_3_type791382247" name="tank_3_type" value="Plastic">
-                <label for="tank_3_type791382247"  class="form-check-label">
+                <input class="form-check-input" type="radio" id="tank_3_type791382247" name="tank_3_type"
+                  value="Plastic">
+                <label for="tank_3_type791382247" class="form-check-label">
                   Plastic
                 </label>
-                <input class="form-check-input" type="radio" id="tank_3_type1403848802" name="tank_3_type" value="Fiberglass">
-                <label for="tank_3_type1403848802"  class="form-check-label">
+                <input class="form-check-input" type="radio" id="tank_3_type1403848802" name="tank_3_type"
+                  value="Fiberglass">
+                <label for="tank_3_type1403848802" class="form-check-label">
                   Fiberglass
                 </label>
 
-                
-                <input class="form-check-input" type="radio"id="tank_3_type594488993" name="tank_3_type" value="Bag">
-                
-                <label class="form-check-label"for="tank_3_type594488993">
+
+                <input class="form-check-input" type="radio" id="tank_3_type594488993" name="tank_3_type" value="Bag">
+
+                <label class="form-check-label" for="tank_3_type594488993">
                   Bag
                 </label>
-                <input class="form-check-input" type="radio"  id="tank_3_type389479985" name="tank_3_type" value="I don't know">
+                <input class="form-check-input" type="radio" id="tank_3_type389479985" name="tank_3_type"
+                  value="I don't know">
                 <label class="form-check-label" for="tank_3_type389479985">
                   I don't know
                 </label>
@@ -539,28 +580,30 @@
                       sday.innerHTML = "Service days: We'll contact you";
                     }
                   }
-                  </script>
-                  
+                </script>
+
 
               </div>
             </div>
 
             <div class="mb-1 text-white">
               <label class="form-label">
-                <h3>Vessel Location
+                <h3>VESSEL LOCATION
                 </h3>
+                <h5 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h5>
               </label>
               </br>
-            
+
               <ul>
                 <li><span class="city_denotation">Alameda, Eastside / Inner Harbor</span>
+                 
                   <ul>
                     <div class="location_form_option">
                       <input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_69319048'),'Alameda Marina Service Day: Wednesday');"
                         name="location" value="Alameda Marina" id="location_69319048">
-                      <label style="display:inline;" for="location_69319048">Alameda Marina (<a class="a_text" target="_new"
-                          href="http://alamedamarina.net/">Website</a>)
+                      <label style="display:inline;" for="location_69319048">Alameda Marina (<a class="a_text"
+                          target="_new" href="http://alamedamarina.net/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -571,71 +614,71 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2393986666'),'Alameda Yacht Club Service Day: Wednesday');"
                         name="location" value="Alameda Yacht Club" id="location_2393986666">
-                      <label style="display:inline;" for="location_2393986666">Alameda Yacht Club (<a class="a_text" target="_new"
-                          href="http://www.alamedayachtclub.org/index.htm">Website</a>)
+                      <label style="display:inline;" for="location_2393986666">Alameda Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.alamedayachtclub.org/index.htm">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3667115906'),'Barnhill Marina Service Day: Wednesday');"
                         name="location" value="Barnhill Marina" id="location_3667115906">
-                      <label style="display:inline;" for="location_3667115906">Barnhill Marina (<a class="a_text" target="_new"
-                          href="http://www.alamedafloatinghomes.org/">Website</a>)
+                      <label style="display:inline;" for="location_3667115906">Barnhill Marina (<a class="a_text"
+                          target="_new" href="http://www.alamedafloatinghomes.org/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2420234427'),'Encinal Yacht Club Service Day: Wednesday');"
                         name="location" value="Encinal Yacht Club" id="location_2420234427">
-                      <label style="display:inline;" for="location_2420234427">Encinal Yacht Club (<a  class="a_text" target="_new"
-                          href="http://www.encinal.org/">Website</a>)
+                      <label style="display:inline;" for="location_2420234427">Encinal Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.encinal.org/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2998528028'),'Fortman Service Day: Wednesday');"
                         name="location" value="Fortman" id="location_2998528028">
-                      <label style="display:inline;" for="location_2998528028">Fortman Marina (<a  class="a_text" target="_new"
-                          href="http://www.fortman.com/">Website</a>)
+                      <label style="display:inline;" for="location_2998528028">Fortman Marina (<a class="a_text"
+                          target="_new" href="http://www.fortman.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_359881004'),'Grand Service Day: Wednesday');"
                         name="location" value="Grand" id="location_359881004">
-                      <label style="display:inline;" for="location_359881004">Grand Marina (<a  class="a_text" target="_new"
-                          href="http://grandmarina.com/">Website</a>)
+                      <label style="display:inline;" for="location_359881004">Grand Marina (<a class="a_text"
+                          target="_new" href="http://grandmarina.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3434819157'),'Island Yacht Club Service Day: Wednesday');"
                         name="location" value="Island Yacht Club" id="location_3434819157">
-                      <label style="display:inline;" for="location_3434819157">Island Yacht Club (<a  class="a_text" target="_new"
-                          href="http://www.iyc.org/">Website</a>)
+                      <label style="display:inline;" for="location_3434819157">Island Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.iyc.org/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1988628570'),'Marina Village Service Day: Wednesday');"
                         name="location" value="Marina Village" id="location_1988628570">
-                      <label style="display:inline;" for="location_1988628570">Marina Village Yacht Harbor (<a class="a_text" 
-                          target="_new" href="http://www.marinavillageharbor.com">Website</a>)
+                      <label style="display:inline;" for="location_1988628570">Marina Village Yacht Harbor (<a
+                          class="a_text" target="_new" href="http://www.marinavillageharbor.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_905045311'),'Mariner Square Marina Service Day: Wednesday');"
                         name="location" value="Mariner Square Marina" id="location_905045311">
-                      <label style="display:inline;" for="location_905045311">Mariner Square Marina (<a class="a_text" target="_new"
-                          href="http://www.marinersquaremarina.com/">Website</a>)
+                      <label style="display:inline;" for="location_905045311">Mariner Square Marina (<a class="a_text"
+                          target="_new" href="http://www.marinersquaremarina.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3275254465'),'Metropolitan Yacht Club Service Day: Wednesday');"
                         name="location" value="Metropolitan Yacht Club" id="location_3275254465">
-                      <label style="display:inline;" for="location_3275254465">Metropolitan Yacht Club (<a class="a_text" target="_new"
-                          href="http://www.metropolitanyachtclub.org">Website</a>)
+                      <label style="display:inline;" for="location_3275254465">Metropolitan Yacht Club (<a
+                          class="a_text" target="_new" href="http://www.metropolitanyachtclub.org">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1933187096'),'Oakland Yacht Club Service Day: Wednesday');"
                         name="location" value="Oakland Yacht Club" id="location_1933187096">
-                      <label style="display:inline;" for="location_1933187096">Oakland Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.oaklandyachtclub.com/">Website</a>)
+                      <label style="display:inline;" for="location_1933187096">Oakland Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.oaklandyachtclub.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -646,93 +689,98 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4147955454'),'Svendsens Boat Yard Service Day: Wednesday');"
                         name="location" value="Svendsens Boat Yard" id="location_4147955454">
-                      <label style="display:inline;" for="location_4147955454">Svendsens Boat Yard (<a  class="a_text" target="_new"
-                          href="http://www.svendsens.com/boatyard/">Website</a>)
+                      <label style="display:inline;" for="location_4147955454">Svendsens Boat Yard (<a class="a_text"
+                          target="_new" href="http://www.svendsens.com/boatyard/">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Alameda, Westside / Bayside</span>
+                <li class="mt-3"><span class="city_denotation">Alameda, Westside / Bayside</span>
+                  
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_632054291'),'Ballena Bay Yacht Club Service Day: Wednesday');"
                         name="location" value="Ballena Bay Yacht Club" id="location_632054291">
-                      <label style="display:inline;" for="location_632054291">Ballena Bay Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.bbyc.org/">Website</a>)
+                      <label style="display:inline;" for="location_632054291">Ballena Bay Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.bbyc.org/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1116416744'),'Ballena Isle Service Day: Wednesday');"
                         name="location" value="Ballena Isle" id="location_1116416744">
-                      <label style="display:inline;" for="location_1116416744">Ballena Isle Marina (<a class="a_text"  target="_new"
-                          href="http://www.ballenaisle.com">Website</a>)
+                      <label style="display:inline;" for="location_1116416744">Ballena Isle Marina (<a class="a_text"
+                          target="_new" href="http://www.ballenaisle.com">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Berkeley</span>
+                <li class="mt-3"><span class="city_denotation">Berkeley</span>
+                
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4007217374'),'Berkeley Marina Service Day: Thursday');"
                         name="location" value="Berkeley Marina" id="location_4007217374">
-                      <label style="display:inline;" for="location_4007217374">Berkeley Marina (<a class="a_text"  target="_new"
-                          href="http://www.cityofberkeley.info/marina/">Website</a>)
+                      <label style="display:inline;" for="location_4007217374">Berkeley Marina (<a class="a_text"
+                          target="_new" href="http://www.cityofberkeley.info/marina/">Website</a>)
                         <span class="service_special"><span class="service_special">[Marina sponsors 1 free service /
                             month]</span></span> </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1215004448'),'Berkeley Yacht Club Service Day: Thursday');"
                         name="location" value="Berkeley Yacht Club" id="location_1215004448">
-                      <label style="display:inline;" for="location_1215004448">Berkeley Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.berkeleyyc.org">Website</a>)
+                      <label style="display:inline;" for="location_1215004448">Berkeley Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.berkeleyyc.org">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2969668151'),'Cal Sailing Club Service Day: Thursday');"
                         name="location" value="Cal Sailing Club" id="location_2969668151">
-                      <label style="display:inline;" for="location_2969668151">Cal Sailing Club (<a  class="a_text" target="_new"
-                          href="http://www.cal-sailing.org">Website</a>)
+                      <label style="display:inline;" for="location_2969668151">Cal Sailing Club (<a class="a_text"
+                          target="_new" href="http://www.cal-sailing.org">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Brisbane</span>
+                <li class="mt-3"><span class="city_denotation">Brisbane</span>
+                  
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4202189335'),'Brisbane Service Day: Tuesday');"
                         name="location" value="Brisbane" id="location_4202189335">
-                      <label style="display:inline;" for="location_4202189335">Brisbane Marina (<a class="a_text"  target="_new"
-                          href="http://www.ci.brisbane.ca.us/departments/marina/about">Website</a>)
+                      <label style="display:inline;" for="location_4202189335">Brisbane Marina (<a class="a_text"
+                          target="_new" href="http://www.ci.brisbane.ca.us/departments/marina/about">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Emeryville</span>
+                <li class="mt-3"><span class="city_denotation">Emeryville</span>
+                 
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4048876855'),'Emery Cove Yacht Harbor Service Day: Thursday');"
                         name="location" value="Emery Cove Yacht Harbor" id="location_4048876855">
-                      <label style="display:inline;" for="location_4048876855">Emery Cove Yacht Harbor (<a class="a_text"  target="_new"
-                          href="http://www.emerycove.com/">Website</a>)
+                      <label style="display:inline;" for="location_4048876855">Emery Cove Yacht Harbor (<a
+                          class="a_text" target="_new" href="http://www.emerycove.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2171471939'),'Emeryville Marina Service Day: Thursday');"
                         name="location" value="Emeryville Marina" id="location_2171471939">
-                      <label style="display:inline;" for="location_2171471939">Emeryville Marina (<a class="a_text"  target="_new"
-                          href="http://www.emeryvillemarina.com/">Website</a>)
+                      <label style="display:inline;" for="location_2171471939">Emeryville Marina (<a class="a_text"
+                          target="_new" href="http://www.emeryvillemarina.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_22187823'),'Emeryville Yacht Club Service Day: Thursday');"
                         name="location" value="Emeryville Yacht Club" id="location_22187823">
-                      <label style="display:inline;" for="location_22187823">Emeryville Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.emeryvilleyachtclub.org/">Website</a>)
+                      <label style="display:inline;" for="location_22187823">Emeryville Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.emeryvilleyachtclub.org/">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Oakland</span>
+                <li class="mt-3"><span class="city_denotation">Oakland</span>
+                
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_575111429'),'Central Basin Service Day: Wednesday');"
@@ -742,8 +790,8 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3550446210'),'Embarcadero Cove Service Day: Wednesday');"
                         name="location" value="Embarcadero Cove" id="location_3550446210">
-                      <label style="display:inline;" for="location_3550446210">Embarcadero Cove Marina (<a class="a_text"  target="_new"
-                          href="http://www.oaklandmarinas.com">Website</a>)
+                      <label style="display:inline;" for="location_3550446210">Embarcadero Cove Marina (<a
+                          class="a_text" target="_new" href="http://www.oaklandmarinas.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -759,8 +807,8 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4180104617'),'Jack London Service Day: Wednesday');"
                         name="location" value="Jack London" id="location_4180104617">
-                      <label style="display:inline;" for="location_4180104617">Jack London Square (<a class="a_text"  target="_new"
-                          href="http://www.oaklandmarinas.com">Website</a>)
+                      <label style="display:inline;" for="location_4180104617">Jack London Square (<a class="a_text"
+                          target="_new" href="http://www.oaklandmarinas.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -780,13 +828,14 @@
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Richmond</span>
+                <li class="mt-3"><span class="city_denotation">Richmond</span>
+                 
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3597960744'),'Bay Marine Boatworks Service Day: Monday');"
                         name="location" value="Bay Marine Boatworks" id="location_3597960744">
-                      <label style="display:inline;" for="location_3597960744">Bay Marine Boatworks (<a class="a_text"  target="_new"
-                          href="http://www.baymarineboatworks.com/">Website</a>)
+                      <label style="display:inline;" for="location_3597960744">Bay Marine Boatworks (<a class="a_text"
+                          target="_new" href="http://www.baymarineboatworks.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -797,29 +846,29 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2675886455'),'KKMI Point Richmond Service Day: Monday');"
                         name="location" value="KKMI Point Richmond" id="location_2675886455">
-                      <label style="display:inline;" for="location_2675886455">KKMI Point Richmond (<a class="a_text"  target="_new"
-                          href="http://www.kkmi.com/maritime-services/pt-richmond.php">Website</a>)
+                      <label style="display:inline;" for="location_2675886455">KKMI Point Richmond (<a class="a_text"
+                          target="_new" href="http://www.kkmi.com/maritime-services/pt-richmond.php">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2781578769'),'Marina Bay Yacht Club Service Day: Monday');"
                         name="location" value="Marina Bay Yacht Club" id="location_2781578769">
-                      <label style="display:inline;" for="location_2781578769">Marina Bay Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.marinabayyc.com/">Website</a>)
+                      <label style="display:inline;" for="location_2781578769">Marina Bay Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.marinabayyc.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1161156994'),'Marina Bay Yacht Harbor Service Day: Monday');"
                         name="location" value="Marina Bay Yacht Harbor" id="location_1161156994">
-                      <label style="display:inline;" for="location_1161156994">Marina Bay Yacht Harbor (<a class="a_text"  target="_new"
-                          href="http://www.marinabayyachtharbor.com">Website</a>)
+                      <label style="display:inline;" for="location_1161156994">Marina Bay Yacht Harbor (<a
+                          class="a_text" target="_new" href="http://www.marinabayyachtharbor.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3913486094'),'Point San Pablo Yacht Club Service Day: Monday');"
                         name="location" value="Point San Pablo Yacht Club" id="location_3913486094">
-                      <label style="display:inline;" for="location_3913486094">Point San Pablo Yacht Club (<a class="a_text" 
-                          target="_new" href="https://pspyc.org/">Website</a>)
+                      <label style="display:inline;" for="location_3913486094">Point San Pablo Yacht Club (<a
+                          class="a_text" target="_new" href="https://pspyc.org/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -829,20 +878,21 @@
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">San Francisco</span>
+                <li class="mt-3"><span class="city_denotation">San Francisco</span>
+                
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1682387675'),'Bay View Boat Club Service Day: Thursday');"
                         name="location" value="Bay View Boat Club" id="location_1682387675">
-                      <label style="display:inline;" for="location_1682387675">Bay View Boat Club (<a class="a_text"  target="_new"
-                          href="http://bayviewboatclub.org">Website</a>)
+                      <label style="display:inline;" for="location_1682387675">Bay View Boat Club (<a class="a_text"
+                          target="_new" href="http://bayviewboatclub.org">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4233970115'),'Golden Gate Yacht Club Service Day: Thursday');"
                         name="location" value="Golden Gate Yacht Club" id="location_4233970115">
-                      <label style="display:inline;" for="location_4233970115">Golden Gate Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.ggyc.com">Website</a>)
+                      <label style="display:inline;" for="location_4233970115">Golden Gate Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.ggyc.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -853,8 +903,8 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2458211241'),'Pier 39 Service Day: Thursday');"
                         name="location" value="Pier 39" id="location_2458211241">
-                      <label style="display:inline;" for="location_2458211241">Pier 39 Marina (<a class="a_text"  target="_new"
-                          href="http://www.pier39marina.com">Website</a>)
+                      <label style="display:inline;" for="location_2458211241">Pier 39 Marina (<a class="a_text"
+                          target="_new" href="http://www.pier39marina.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -865,15 +915,15 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2560233915'),'San Francisco Marina / Gashouse Cove Service Day: Thursday');"
                         name="location" value="San Francisco Marina / Gashouse Cove" id="location_2560233915">
-                      <label style="display:inline;" for="location_2560233915">San Francisco Marina / Gashouse Cove (<a class="a_text" 
-                          target="_new" href="http://sfrecpark.org/SF-Marina.aspx">Website</a>)
+                      <label style="display:inline;" for="location_2560233915">San Francisco Marina / Gashouse Cove (<a
+                          class="a_text" target="_new" href="http://sfrecpark.org/SF-Marina.aspx">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2663099029'),'San Francisco Marina / West Harbor Service Day: Thursday');"
                         name="location" value="San Francisco Marina / West Harbor" id="location_2663099029">
-                      <label style="display:inline;" for="location_2663099029">San Francisco Marina / West Harbor (<a class="a_text" 
-                          target="_new" href="http://sfrecpark.org/SF-Marina.aspx">Website</a>)
+                      <label style="display:inline;" for="location_2663099029">San Francisco Marina / West Harbor (<a
+                          class="a_text" target="_new" href="http://sfrecpark.org/SF-Marina.aspx">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -884,27 +934,29 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3985323889'),'South Beach Service Day: Thursday');"
                         name="location" value="South Beach" id="location_3985323889">
-                      <label style="display:inline;" for="location_3985323889">South Beach Harbor (<a  class="a_text" target="_new"
-                          href="http://www.southbeachharbor.com">Website</a>)
+                      <label style="display:inline;" for="location_3985323889">South Beach Harbor (<a class="a_text"
+                          target="_new" href="http://www.southbeachharbor.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_612577623'),'South Beach Yacht Club Service Day: Thursday');"
                         name="location" value="South Beach Yacht Club" id="location_612577623">
-                      <label style="display:inline;" for="location_612577623">South Beach Yacht Club (<a class="a_text"  target="_new"
-                          href="http://www.southbeachyc.org/">Website</a>)
+                      <label style="display:inline;" for="location_612577623">South Beach Yacht Club (<a class="a_text"
+                          target="_new" href="http://www.southbeachyc.org/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4246578778'),'St. Francis Yacht Club Service Day: Thursday');"
                         name="location" value="St. Francis Yacht Club" id="location_4246578778">
-                      <label style="display:inline;" for="location_4246578778">St. Francis Yacht Club (<a class="a_text"  target="_new"
-                          href="http://stfyc.com">Website</a>)
+                      <label style="display:inline;" for="location_4246578778">St. Francis Yacht Club (<a class="a_text"
+                          target="_new" href="http://stfyc.com">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Sausalito South</span>
+                <li class="mt-3"><span class="city_denotation">Sausalito South</span>
+
+                  
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_158858396'),'Bridgeway Marina Service Day: Wednesday');"
@@ -919,26 +971,27 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1167387386'),'Sausalito Yacht Harbor Service Day: Wednesday');"
                         name="location" value="Sausalito Yacht Harbor" id="location_1167387386">
-                      <label style="display:inline;" for="location_1167387386">Sausalito Yacht Harbor (<a class="a_text"  target="_new"
-                          href="http://www.ci.sausalito.ca.us/index.aspx?page=59">Website</a>)
+                      <label style="display:inline;" for="location_1167387386">Sausalito Yacht Harbor (<a class="a_text"
+                          target="_new" href="http://www.ci.sausalito.ca.us/index.aspx?page=59">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Sausalito Central</span>
+                <li class="mt-3"><span class="city_denotation">Sausalito Central</span>
+                 
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1659835988'),'Blue Water Yacht Harbor Service Day: Monday');"
                         name="location" value="Blue Water Yacht Harbor" id="location_1659835988">
-                      <label style="display:inline;" for="location_1659835988">Blue Water Yacht Harbor (<a class="a_text"  target="_new"
-                          href="http://bluewateryachtharbor.com/">Website</a>)
+                      <label style="display:inline;" for="location_1659835988">Blue Water Yacht Harbor (<a
+                          class="a_text" target="_new" href="http://bluewateryachtharbor.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3893052201'),'Clipper Yacht Harbor Service Day: Monday');"
                         name="location" value="Clipper Yacht Harbor" id="location_3893052201">
-                      <label style="display:inline;" for="location_3893052201">Clipper Yacht Harbor (<a class="a_text"  target="_new"
-                          href="http://clipperyacht.com/">Website</a>)
+                      <label style="display:inline;" for="location_3893052201">Clipper Yacht Harbor (<a class="a_text"
+                          target="_new" href="http://clipperyacht.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -964,19 +1017,20 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_579285833'),'Schoonmaker Marina Service Day: Monday');"
                         name="location" value="Schoonmaker Marina" id="location_579285833">
-                      <label style="display:inline;" for="location_579285833">Schoonmaker Marina (<a class="a_text"  target="_new"
-                          href="http://www.schoonmakermarina.com/">Website</a>)
+                      <label style="display:inline;" for="location_579285833">Schoonmaker Marina (<a class="a_text"
+                          target="_new" href="http://www.schoonmakermarina.com/">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Sausalito North</span>
+                <li class="mt-3"><span class="city_denotation">Sausalito North</span>
+                  
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2484225541'),'Richardson Bay Marina Service Day: Monday');"
                         name="location" value="Richardson Bay Marina" id="location_2484225541">
-                      <label style="display:inline;" for="location_2484225541">Richardson Bay Marina (<a class="a_text"  target="_new"
-                          href="http://www.richardsonbaymarina.com/">Website</a>)
+                      <label style="display:inline;" for="location_2484225541">Richardson Bay Marina (<a class="a_text"
+                          target="_new" href="http://www.richardsonbaymarina.com/">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -986,25 +1040,27 @@
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">South San Francisco</span>
+                <li class="mt-3"><span class="city_denotation">South San Francisco</span>
+                  
                   <ul>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_359481864'),'Oyster Cove Service Day: Tuesday');"
                         name="location" value="Oyster Cove" id="location_359481864">
-                      <label style="display:inline;" for="location_359481864">Oyster Cove Marina (<a  class="a_text" target="_new"
-                          href="http://www.oystercovemarina.net">Website</a>)
+                      <label style="display:inline;" for="location_359481864">Oyster Cove Marina (<a class="a_text"
+                          target="_new" href="http://www.oystercovemarina.net">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1483370252'),'Oyster Point Service Day: Tuesday');"
                         name="location" value="Oyster Point" id="location_1483370252">
-                      <label style="display:inline;" for="location_1483370252">Oyster Point Marina (<a  class="a_text" target="_new"
-                          href="http://www.smharbor.com">Website</a>)
+                      <label style="display:inline;" for="location_1483370252">Oyster Point Marina (<a class="a_text"
+                          target="_new" href="http://www.smharbor.com">Website</a>)
                       </label>
                     </div>
                   </ul>
                 </li>
-                <li><span class="city_denotation">Other SF Bay Area</span>
+                <li class="mt-3"><span class="city_denotation">Other SF Bay Area</span>
+                  
                   <ul>
                     <div class="location_form_option"><input type="text" onfocus="onLocationOtherSelected();"
                         id="location_other" name="location_other" value=""></div>
@@ -1017,11 +1073,12 @@
 
             <div class="mb-1 text-white">
               <label class="form-label">
-                <h3 class="mt-2">Schedule Your Service</h3>
+                <h3 class="mt-3 mb-3">SCHEDULE YOUR SERVICE</h3>
+                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
               </label>
               <span id="service_day"></span>
-            <label for="service_requested">Service Requested <span class="required">(*required)</span></label>
-           
+              <label for="service_requested">Service Requested <span class="required">(*required)</span></label>
+
 
               <select name="service_requested" id="service_requested" class="form-select"
                 aria-label="Default select example">
@@ -1040,7 +1097,7 @@
               <div class="mb-1">
 
                 <label for="service_start">Service Start <span class="required">(*required)</span></label>
-        
+
 
                 <select name="service_start" id="service_start" class="form-select" aria-label="Default select example">
                   <option value="" selected="selected"></option>
@@ -1055,7 +1112,8 @@
 
             <div class="mb-1 text-white">
               <label class="form-label">
-                <h3 class="mt-2" id="pump_out_log_reporting_header">Pump-out log reporting</h3>
+                <h3 class="mt-2" id="pump_out_log_reporting_header">PUMP OUT LOG REPORTING</h3>
+                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
               </label>
               <br />
               <p> If your marina has a required pump-out log reporting program, we can supply this directly to your
@@ -1064,16 +1122,18 @@
 
               <div class="mb-1">
 
-                <input class="form-check-input" type="radio"  id="pump_out_log_reporting3263366671" name="pump_out_log_reporting" value="Yes, please do this for me">
+                <input class="form-check-input" type="radio" id="pump_out_log_reporting3263366671"
+                  name="pump_out_log_reporting" value="Yes, please do this for me">
 
-              <label class="form-check-label" for="pump_out_log_reporting3263366671">
-                Yes, please do this for me
-              </label>
-<br/>
-              <input class="form-check-input" type="radio" id="pump_out_log_reporting448153154" name="pump_out_log_reporting" value="No, I'll take care of it">
-              <label class="form-check-label" for="pump_out_log_reporting448153154">
-                No, I'll take care of it
-              </label>
+                <label class="form-check-label" for="pump_out_log_reporting3263366671">
+                  Yes, please do this for me
+                </label>
+                <br />
+                <input class="form-check-input" type="radio" id="pump_out_log_reporting448153154"
+                  name="pump_out_log_reporting" value="No, I'll take care of it">
+                <label class="form-check-label" for="pump_out_log_reporting448153154">
+                  No, I'll take care of it
+                </label>
               </div>
 
 
@@ -1081,13 +1141,15 @@
 
 
             <div class="mb-1 text-white">
-              <label class="form-label"  id="pump_out_log_reporting_for_berkeley_marina_fieldset">
-                <h3 class="mt-2">Additional Information</h3>
+              <label class="form-label" id="pump_out_log_reporting_for_berkeley_marina_fieldset">
+                <h3 class="mt-2">ADDITIONAL INFORMATION </h3>
+                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
               </label>
               <br />
               <div class="form-outline">
-                <textarea class="form-control" name="additional_info" cols="60"  id="textAreaExample1" rows="4" placeholder=" Write Your Message"></textarea>
-               
+                <textarea class="form-control" name="additional_info" cols="60" id="textAreaExample1" rows="4"
+                  placeholder=" Write Your Message"></textarea>
+
               </div>
 
 
@@ -1095,20 +1157,31 @@
 
             <div class="mb-1 text-white">
               <label class="form-label">
-                <h3 class="mt-2">Terms of Service</h3>
+                <h3 class="mt-2">TERMS OF SERVICES</h3>
+                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
               </label>
               <br />
               <div class="form-outline">
                 <ul>
-                  <li>I understand that I am contracting with BayGreen for service and due to scheduling requirements, I will be billed for service if I do not notify BayGreen of any change in service via the Schedule Service form in my BayGreen online account within 48 hours of my scheduled service.</li>
-                  <li>Clean up resulting from overflows are subject to a $135 per hour fee with a minimum of $500 during COVID concerns.</li>
-                  <li>Service rotations require autopay set up, service will be ON CALL until autopay is set up (following screen will have a link for set up).</li>
-                  <li>Payments are due by the date indicated on the billing statement, prices and schedules are subject to change, see <a href="https://baygreen.net/bg-rates.php">BayGreen Rates</a> for current rates, late payments are subject a late fee of $5 late fee (or 5 percent over $100) and will lead to cancellation of service until account is in good standing.</li>
-                  </ul><input type="checkbox" name="agree_to_terms_of_service1958043527" value="I agree to the terms of service" id="agree_to_terms_of_service1958043527"><label for="agree_to_terms_of_service1958043527" style="display:inline;">I agree to the terms of service</label>
-<br/>
-<br/>
-                  <input type="submit" value="Register">
-               
+                  <li>I understand that I am contracting with BayGreen for service and due to scheduling requirements, I
+                    will be billed for service if I do not notify BayGreen of any change in service via the Schedule
+                    Service form in my BayGreen online account within 48 hours of my scheduled service.</li>
+                  <li>Clean up resulting from overflows are subject to a $135 per hour fee with a minimum of $500 during
+                    COVID concerns.</li>
+                  <li>Service rotations require autopay set up, service will be ON CALL until autopay is set up
+                    (following screen will have a link for set up).</li>
+                  <li>Payments are due by the date indicated on the billing statement, prices and schedules are subject
+                    to change, see <a href="https://baygreen.net/bg-rates.php">BayGreen Rates</a> for current rates,
+                    late payments are subject a late fee of $5 late fee (or 5 percent over $100) and will lead to
+                    cancellation of service until account is in good standing.</li>
+                </ul><input type="checkbox" name="agree_to_terms_of_service1958043527"
+                  value="I agree to the terms of service" id="agree_to_terms_of_service1958043527"><label
+                  for="agree_to_terms_of_service1958043527" style="display:inline;">I agree to the terms of
+                  service</label>
+                <br />
+                <br />
+                <input type="submit" value="Register">
+
               </div>
 
 
@@ -1127,36 +1200,36 @@
             <h3 class="text-white mt-3 mb-1 ">Contact Information</h3>
             <div class="mb-1">
               <label class="form-label text-white">First Name (*required ) </label>
-              <input type="text" class="form-control" required >
+              <input type="text" class="form-control" required>
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Last Name (*required ) </label>
-              <input type=" text" class="form-control" required >
+              <input type=" text" class="form-control" required>
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Main Phone (*required ) </label>
-              <input type=" number" class="form-control" required >
+              <input type=" number" class="form-control" required>
             </div>
             <div class="mb-1">
               <label class="form-label text-white"">Alternate  Phone</label>
-              <input type=" number" class="form-control" required >
+              <input type=" number" class="form-control" required>
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Email (*required ) </label>
-              <input type=" email" class="form-control" required >
+              <input type=" email" class="form-control" required>
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Password</label>
-              <input type=" password" class="form-control" required >
+              <input type=" password" class="form-control" required>
             </div>
 
             <div class="mb-1">
               <label class="form-label text-white"">Conform Password</label>
-              <input type=" password" class="form-control" required >
+              <input type=" password" class="form-control" required>
             </div>
             <div class="mb-1">
               <label class="form-label text-white"">How did you hear aboutb us ? (*required ) </label>
@@ -1184,13 +1257,13 @@
             <div class="mb-1">
               <h3 class="text-white mt-2 mb-1">Billing Information</h3>
               <se class="form-label text-white"">Billing Address  (*required ) </label>
-              <input type=" password" class="form-control" required >
+              <input type=" password" class="form-control" required>
 
             </div>
             <div class="mb-1">
 
               <label class="form-label text-white"">City (*required ) </label>
-              <input type=" password" class="form-control" required >
+              <input type=" password" class="form-control" required>
 
             </div>
 
@@ -1261,13 +1334,13 @@
             <div class="mb-1">
 
               <label class="form-label text-white""> Zip Code (*required ) </label>
-            <input type=" password" class="form-control" required >
+            <input type=" password" class="form-control" required>
             </div>
 
             <div class="mb-1 text-white">
               <label class="form-label text-white""> Billing (*required) </label>
             <br/>
-            <input class=" form-check-input" checked  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <input class=" form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Email (Free!)
                 </label>
