@@ -281,3 +281,11 @@ background-color:#006400  ;
 .a_text{
   color: #e73e06;
 }
+
+ul > li{
+  list-style-type: none 
+}
+
+label {
+  font-size: 20px;  
+}
