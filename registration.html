@@ -108,7 +108,8 @@
         <!-- 😊 First   Col  Started -->
 
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box5">
-          <h3 class="font_headers">REGISTER FOR SERVICE</h3>
+          <!-- <h4 class="font_headers  mt-3 mb-0 text-white">REGISTER FOR SERVICE</h4> -->
+          <h4 class="text-white mt-3 mb-0  ">REGISTER FOR SERVICE</h4>
           <h6 class="mb-0">>>>>>>>>>>>>>></h6>
           <p>
             Please do not use apostrophes, foot marks, accents or other special characters as they will delay
@@ -120,7 +121,7 @@
         <!-- 😊 Second Col Started -->
 
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box2">
-          <form> 
+          <form>
             <h4 class="text-white mt-3 mb-0  ">VESSEL INFORMATION</h4>
 
             <h4 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h4>
@@ -163,18 +164,19 @@
             <div class="mb-3 text-white">
               <label id="vessel_type_fieldset" class="form-label">Vessel Type (*required ) </label>
 
-              <input class="form-check-input" type="radio" id="vessel_type1104290778" required name="vessel_type"
-                value="sail">
+              <input class="form-check-input me-2 ms-1" type="radio" id="vessel_type1104290778" required
+                name="vessel_type" value="sail">
               <label for="vessel_type1104290778" class="form-check-label">
                 Sail
               </label>
 
-              <input class="form-check-input" type="radio" id="vessel_type1783312036" name="vessel_type" value="Power">
+              <input class="form-check-input me-2 ms-1" type="radio" id="vessel_type1783312036" name="vessel_type"
+                value="Power">
               <label for="vessel_type1783312036" class="form-check-label">
                 Power
               </label>
-              <input class="form-check-input" checked type="radio" id="vessel_type295052078" selected name="vessel_type"
-                value="Houseboat">
+              <input class="form-check-input" checked me-2 ms-1 type="radio" id="vessel_type295052078" selected
+                name="vessel_type" value="Houseboat">
               <label for="vessel_type295052078" class="form-check-label">
                 Houseboat
               </label>
@@ -183,17 +185,46 @@
 
             </div>
 
-            <div class="mb-1 text-white">
+
+
+
+
+            <div class="mb-3 text-white">
+              <label id="vessel_type_fieldset" class="form-label">Number of Tanks? </label>
+
+              <input class="form-check-input me-2 ms-1" type="radio" id="tank_count_1" required name="tank_count"
+                value="1" onclick="adjustTankDisplay(document.getElementById('tank_count_1'));">
+              <label for="vessel_type1104290778" class="form-check-label">
+                1
+              </label>
+
+              <input class="form-check-input me-2 ms-1" type="radio" id="tank_count_2" name="tank_count" value="2"
+                onclick="adjustTankDisplay(document.getElementById('tank_count_2'));">
+              <label for="tank_count_2" class="form-check-label">
+                2
+              </label>
+
+              <input class="form-check-input me-2 ms-1" type="radio" id="tank_count_3" selected name="tank_count"
+                value="3" onclick="adjustTankDisplay(document.getElementById('tank_count_3'));">
+              <label for="tank_count_3" class="form-check-label">
+                3
+              </label>
+
+
+
+            </div>
+
+            <div class="mb-0 text-white" style="display: none;" id="tank_1">
               <label for="tank_1_size" class="form-label">
                 <h3 class="mt-2">FIRST TANK (*required ) </h3>
 
-
-
               </label>
 
-              Tank 1 Size (*required)
+              <br />
 
-              <select name="tank_1_size" id="tank_1_size" class="form-select">
+              <h4 class="ms-3">Tank 1 Size (*required)</h4>
+
+              <select name="tank_1_size" id="tank_1_size" class="form-select ms-3 ">
                 <option value="" selected="selected"></option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -226,11 +257,11 @@
                 <option value="141 - 145 gallons">141 - 145 gallons</option>
               </select>
 
-              <div class="mb-1">
+              <div class="mb-1 ms-3">
                 <label class="form-label">
                   <h4 class="mt-3">Tank 1 Location </h4>
 
-               
+
 
                 </label>
                 <br />
@@ -277,33 +308,37 @@
               </div>
 
 
-              <div class="mb-1 text-white">
-                <label class="form-label" id="tank_1_type_fieldset">Tank 1 Type (*required) </label>
+              <div class="mb-1 text-white mt-3 ms-3">
+                <label class="form-label" id="tank_1_type_fieldset">
+
+                  <h4 class=" ">Tank 1 Type (*required)</h4>
+                </label>
                 </br>
 
-                <input class="form-check-input" type="radio" id="tank_1_type1936202210" name="tank_1_type"
+                <input class="form-check-input  " type="radio" id="tank_1_type1936202210" name="tank_1_type"
                   value="Stainless Steel">
-                <label for="tank_1_type1936202210" class="form-check-label">
+                <label for="tank_1_type1936202210" class="form-check-label me-2 ms-1">
                   Stainless Steel
                 </label>
 
-                <input class="form-check-input" type="radio" id="tank_1_type791382247" name="tank_1_type"
+                <input class="form-check-input " type="radio" id="tank_1_type791382247" name="tank_1_type"
                   value="Plastic">
-                <label for="tank_1_type791382247" class="form-check-label">
+                <label for="tank_1_type791382247" class="form-check-label me-2 ms-1">
                   Plastic
                 </label>
                 <input class="form-check-input" type="radio" id="tank_1_type1403848802" name="tank_1_type"
                   value="Fiberglass">
-                <label for="tank_1_type1403848802" class="form-check-label">
+                <label for="tank_1_type1403848802" class="form-check-label me-2 ms-1">
                   Fiberglass
                 </label>
                 <input class="form-check-input" type="radio" id="tank_1_type594488993" name="tank_1_type" value="Bag">
-                <label for="tank_1_type594488993" class="form-check-label">
+                <label for="tank_1_type594488993" class="form-check-label me-2 ms-1">
                   Bag
                 </label>
-                <input class="form-check-input" type="radio" <input class="form-check-input" type="radio"
+                <br />
+                <input class="form-check-input ms-3.4" type="radio" <input class="form-check-input" type="radio"
                   id="tank_1_type389479985" name="tank_1_type" value="I don't know">
-                <label for="tank_1_type389479985" class="form-check-label">
+                <label for="tank_1_type389479985" class="form-check-label me-2 ms-1">
                   I don't know
                 </label>
 
@@ -311,14 +346,16 @@
 
             </div>
 
-            <div class="mb-1 text-white">
+            <div class="mb-1 text-white" style="display: none;" id="tank_2">
               <label for="tank_2_size" class="form-label">
                 <h3 class="mt-2">SECOND TANK (*required ) </h3>
               </label>
               <br />
-              Tank 2 Size
 
-              <select name="tank_2_size" id="tank_2_size" class="form-select" aria-label="Default select example">
+              <h4 class="ms-3">Tank 2 Size</h4>
+
+
+              <select name="tank_2_size" id="tank_2_size" class="form-select ms-3" aria-label="Default select example">
                 <option value="" selected="selected">I just have one tank</option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -351,10 +388,10 @@
                 <option value="141 - 145 gallons">141 - 145 gallons</option>
               </select>
 
-              <div class="mb-1">
+              <div class="mb-1 ms-3">
                 <label class="form-label">
                   <h4 class="mt-2">Tank 2 Location </h4>
-                 
+
                 </label>
                 <br />
                 Click on the Boat to select The Location .
@@ -399,33 +436,36 @@
                 </table>
               </div>
 
-              <div class="mb-1 text-white">
-                <label class="form-label" id="tank_2_type_fieldset">Tank 2 Type </label>
+              <div class="mb-1 text-white ms-3">
+                <label class="form-label" id="tank_2_type_fieldset">
+                  <h4 class=" mt-3">Tank 2 Type</h4>
+                </label>
                 </br>
 
-                <input class="form-check-input" type="radio" id="tank_2_type1936202210" name="tank_2_type"
+                <input class="form-check-input" type="radio" id="tank_2_type1936202210" name="tank_2_type "
                   value="Stainless Steel">
-                <label for="tank_2_type1936202210" class="form-check-label">
+                <label for="tank_2_type1936202210" class="form-check-label me-2 ms-1">
                   Stainless Steel
                 </label>
 
                 <input class="form-check-input" type="radio" id="tank_2_type791382247" name="tank_2_type"
                   value="Plastic">
-                <label for="tank_2_type791382247" class="form-check-label">
+                <label for="tank_2_type791382247" class="form-check-label me-2 ms-1">
                   Plastic
                 </label>
                 <input class="form-check-input" type="radio" id="tank_2_type1403848802" name="tank_2_type"
                   value="Fiberglass">
-                <label for="tank_2_type1403848802" class="form-check-label">
+                <label for="tank_2_type1403848802" class="form-check-label me-2 ms-1">
                   Fiberglass
                 </label>
                 <input class="form-check-input" type="radio" id="tank_2_type594488993" name="tank_2_type" value="Bag">
-                <label for="tank_2_type594488993" class="form-check-label">
+                <label for="tank_2_type594488993" class="form-check-label me-2 ms-1">
                   Bag
                 </label>
+                <br />
                 <input class="form-check-input" checked type="radio" id="tank_2_type389479985" name="tank_2_type"
                   value="I don't know">
-                <label for="tank_2_type389479985" class="form-check-label">
+                <label for="tank_2_type389479985" class="form-check-label me-2 ms-1">
                   I don't know
                 </label>
 
@@ -433,14 +473,14 @@
             </div>
 
 
-            <div class="mb-3 text-white">
+            <div class="mb-3  text-white" style="display: none;" id="tank_3">
               <label for="tank_3_size" class="form-label">
                 <h3 class="mt-2">THIRD TANK (*required ) </h3>
               </label>
 
-              Tank 3 Size
+              <h4 class="ms-3"> Tank 3 Size </h4>
 
-              <select name="tank_3_size" id="tank_3_size" class="form-select" aria-label="Default select example">
+              <select name="tank_3_size" id="tank_3_size" class="form-select ms-3" aria-label="Default select example">
                 <option value="" selected="selected">I just have one or two tanks</option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -473,9 +513,9 @@
                 <option value="141 - 145 gallons">141 - 145 gallons</option>
               </select>
 
-              <div class="mb-1">
+              <div class="mb-1 mt-3 ms-3">
                 <label class="form-label">
-                  <h4>Tank 3 Location </h4>
+                  <h4 class="">Tank 3 Location </h4>
 
 
                 </label>
@@ -522,36 +562,39 @@
                 </table>
               </div>
 
-              <div class="mb-1 text-white">
-                <label id="tank_3_type_fieldset" class="form-label">Tank 3 Type </label>
+              <div class="mb-0 mt-3 text-white  ms-3">
+                <label id="tank_3_type_fieldset" class="form-label">
+                  <h4 class="">Tank 3 Type </h4>
+                </label>
                 </br>
 
                 <input class="form-check-input" type="radio" id="tank_3_type1936202210" name="tank_3_type"
                   value="Stainless Steel">
-                <label for="tank_3_type1936202210" class="form-check-label">
+                <label for="tank_3_type1936202210" class="form-check-label me-2 ms-1">
                   Stainless Steel
                 </label>
 
                 <input class="form-check-input" type="radio" id="tank_3_type791382247" name="tank_3_type"
                   value="Plastic">
-                <label for="tank_3_type791382247" class="form-check-label">
+                <label for="tank_3_type791382247" class="form-check-label me-2 ms-1">
                   Plastic
                 </label>
                 <input class="form-check-input" type="radio" id="tank_3_type1403848802" name="tank_3_type"
                   value="Fiberglass">
-                <label for="tank_3_type1403848802" class="form-check-label">
+                <label for="tank_3_type1403848802" class="form-check-label me-2 ms-1">
                   Fiberglass
                 </label>
 
 
                 <input class="form-check-input" type="radio" id="tank_3_type594488993" name="tank_3_type" value="Bag">
 
-                <label class="form-check-label" for="tank_3_type594488993">
+                <label class="form-check-label" for="tank_3_type594488993 me-2 ms-1">
                   Bag
                 </label>
-                <input class="form-check-input" type="radio" id="tank_3_type389479985" name="tank_3_type"
+                <br />
+                <input class="form-check-input ms-3.4" type="radio" id="tank_3_type389479985" name="tank_3_type"
                   value="I don't know">
-                <label class="form-check-label" for="tank_3_type389479985">
+                <label class="form-check-label" for="tank_3_type389479985 me-2 ms-1">
                   I don't know
                 </label>
 
@@ -580,13 +623,65 @@
                       sday.innerHTML = "Service days: We'll contact you";
                     }
                   }
+
+                  function adjustTankDisplay(element) {
+                    //var element = document.getElementsByName("tank_count");
+                    tank_selected = element.value;
+                    if (tank_selected == 1) {
+                      document.getElementById("tank_1").style.display = "block";
+                      document.getElementById("tank_2").style.display = "none";
+                      document.getElementById("tank_3").style.display = "none";
+                    } else if (tank_selected == 2) {
+                      document.getElementById("tank_1").style.display = "block";
+                      document.getElementById("tank_2").style.display = "block";
+                      document.getElementById("tank_3").style.display = "none";
+
+                    } else if (tank_selected == 3) {
+                      document.getElementById("tank_1").style.display = "block";
+                      document.getElementById("tank_2").style.display = "block";
+                      document.getElementById("tank_3").style.display = "block";
+
+
+                    } else {
+
+                    }
+
+                  }
+
+
+                  // 😊 Vessel Location 
+
+
+                  function adjustLocationkDisplay(element) {
+                    //var element = document.getElementsByName("location_parent");
+                    tank_selected = element.value;
+                    if (location_selected == location_parent_1) {
+                      document.getElementById("tank_1").style.display = "block";
+                      document.getElementById("tank_2").style.display = "none";
+                      document.getElementById("tank_3").style.display = "none";
+                    } else if (tank_selected == 2) {
+                      document.getElementById("tank_1").style.display = "block";
+                      document.getElementById("tank_2").style.display = "block";
+                      document.getElementById("tank_3").style.display = "none";
+
+                    } else if (tank_selected == 3) {
+                      document.getElementById("tank_1").style.display = "block";
+                      document.getElementById("tank_2").style.display = "block";
+                      document.getElementById("tank_3").style.display = "block";
+
+
+                    } else {
+
+                    }
+
+                  }
                 </script>
 
 
               </div>
             </div>
 
-            <div class="mb-1 text-white">
+            <div class="mb-0 text-white">
               <label class="form-label">
                 <h3>VESSEL LOCATION
                 </h3>
@@ -595,9 +690,10 @@
               </br>
 
               <ul>
-                <li><span class="city_denotation">Alameda, Eastside / Inner Harbor</span>
-                 
-                  <ul>
+                <li><span class="city_denotation"><input type="radio" class="me-2  id=" location_parent_1"
+                      name="location_parent" />Eastside / Inner Harbor</span>
+                  Alameda, Westside / Baysid
+                  <ul id="location_parent_1_child">
                     <div class="location_form_option">
                       <input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_69319048'),'Alameda Marina Service Day: Wednesday');"
@@ -695,9 +791,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Alameda, Westside / Bayside</span>
-                  
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_2"
+                      name="location_parent" / />Alameda, Westside / Bayside</span>
+
+                  <ul id="location_parent_2_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_632054291'),'Ballena Bay Yacht Club Service Day: Wednesday');"
                         name="location" value="Ballena Bay Yacht Club" id="location_632054291">
@@ -714,9 +811,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Berkeley</span>
-                
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_3"
+                      name="location_parent" />Berkeley</span>
+
+                  <ul id="location_parent_3_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4007217374'),'Berkeley Marina Service Day: Thursday');"
                         name="location" value="Berkeley Marina" id="location_4007217374">
@@ -741,9 +839,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Brisbane</span>
-                  
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_4"
+                      name="location_parent" />Brisbane</span>
+
+                  <ul id="location_parent_4_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4202189335'),'Brisbane Service Day: Tuesday');"
                         name="location" value="Brisbane" id="location_4202189335">
@@ -753,9 +852,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Emeryville</span>
-                 
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_5"
+                      name="location_parent" />Emeryville</span>
+
+                  <ul id="location_parent_5_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_4048876855'),'Emery Cove Yacht Harbor Service Day: Thursday');"
                         name="location" value="Emery Cove Yacht Harbor" id="location_4048876855">
@@ -779,10 +879,11 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Oakland</span>
-                
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_6"
+                      name="location_parent" />Oakland</span>
+
                   <ul>
-                    <div class="location_form_option"><input type="radio"
+                    <div class="location_parent_6_child"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_575111429'),'Central Basin Service Day: Wednesday');"
                         name="location" value="Central Basin" id="location_575111429">
                       <label style="display:inline;" for="location_575111429">Central Basin </label>
@@ -828,9 +929,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Richmond</span>
-                 
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2"
+                      name="location_parent_7" id="location_parent" />Richmond</span>
+
+                  <ul id="location_parent_7_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3597960744'),'Bay Marine Boatworks Service Day: Monday');"
                         name="location" value="Bay Marine Boatworks" id="location_3597960744">
@@ -878,9 +980,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">San Francisco</span>
-                
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_8"
+                      name="location_parent" />San Francisco</span>
+
+                  <ul id="location_parent_8_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1682387675'),'Bay View Boat Club Service Day: Thursday');"
                         name="location" value="Bay View Boat Club" id="location_1682387675">
@@ -922,8 +1025,9 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2663099029'),'San Francisco Marina / West Harbor Service Day: Thursday');"
                         name="location" value="San Francisco Marina / West Harbor" id="location_2663099029">
-                      <label style="display:inline;" for="location_2663099029">San Francisco Marina / West Harbor (<a
-                          class="a_text" target="_new" href="http://sfrecpark.org/SF-Marina.aspx">Website</a>)
+                      <label style="display:inline;" for="location_2663099029"><input type="radio" class="me-2" />San
+                        Francisco Marina / West Harbor (<a class="a_text" target="_new"
+                          href="http://sfrecpark.org/SF-Marina.aspx">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -934,8 +1038,9 @@
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_3985323889'),'South Beach Service Day: Thursday');"
                         name="location" value="South Beach" id="location_3985323889">
-                      <label style="display:inline;" for="location_3985323889">South Beach Harbor (<a class="a_text"
-                          target="_new" href="http://www.southbeachharbor.com">Website</a>)
+                      <label style="display:inline;" for="location_3985323889"> <input type="radio" class="me-2" />South
+                        Beach Harbor (<a class="a_text" target="_new"
+                          href="http://www.southbeachharbor.com">Website</a>)
                       </label>
                     </div>
                     <div class="location_form_option"><input type="radio"
@@ -954,10 +1059,11 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Sausalito South</span>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" name="location_parent"
+                      id="location_parent_9" />Sausalito South</span>
 
-                  
-                  <ul>
+
+                  <ul id="location_parent_9_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_158858396'),'Bridgeway Marina Service Day: Wednesday');"
                         name="location" value="Bridgeway Marina" id="location_158858396">
@@ -977,9 +1083,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Sausalito Central</span>
-                 
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" name="location_parent"
+                      id="location_parent_10" /> Sausalito Central</span>
+
+                  <ul id="location_parent_10_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_1659835988'),'Blue Water Yacht Harbor Service Day: Monday');"
                         name="location" value="Blue Water Yacht Harbor" id="location_1659835988">
@@ -1023,9 +1130,10 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Sausalito North</span>
-                  
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_parent_11"
+                      name="location_parent" /> Sausalito North</span>
+
+                  <ul id="location_parent_11_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_2484225541'),'Richardson Bay Marina Service Day: Monday');"
                         name="location" value="Richardson Bay Marina" id="location_2484225541">
@@ -1040,9 +1148,11 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">South San Francisco</span>
-                  
-                  <ul>
+                <li class="mt-3"><span class="city_denotation"> <input type="radio" class="me-2" id="location_10_type"
+                      name="location_10_type" name="location_parent" id="location_parent_12" />South San
+                    Francisco</span>
+
+                  <ul id="location_parent_12_child">
                     <div class="location_form_option"><input type="radio"
                         onclick="onLocationSelected(document.getElementById('location_359481864'),'Oyster Cove Service Day: Tuesday');"
                         name="location" value="Oyster Cove" id="location_359481864">
@@ -1059,8 +1169,8 @@
                     </div>
                   </ul>
                 </li>
-                <li class="mt-3"><span class="city_denotation">Other SF Bay Area</span>
-                  
+                <li class="mt-3 "><span class="city_denotation">Other SF Bay Area</span>
+
                   <ul>
                     <div class="location_form_option"><input type="text" onfocus="onLocationOtherSelected();"
                         id="location_other" name="location_other" value=""></div>
@@ -1074,7 +1184,7 @@
             <div class="mb-1 text-white">
               <label class="form-label">
                 <h3 class="mt-3 mb-3">SCHEDULE YOUR SERVICE</h3>
-                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
+
               </label>
               <span id="service_day"></span>
               <label for="service_requested">Service Requested <span class="required">(*required)</span></label>
@@ -1113,7 +1223,7 @@
             <div class="mb-1 text-white">
               <label class="form-label">
                 <h3 class="mt-2" id="pump_out_log_reporting_header">PUMP OUT LOG REPORTING</h3>
-                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
+
               </label>
               <br />
               <p> If your marina has a required pump-out log reporting program, we can supply this directly to your
@@ -1143,7 +1253,7 @@
             <div class="mb-1 text-white">
               <label class="form-label" id="pump_out_log_reporting_for_berkeley_marina_fieldset">
                 <h3 class="mt-2">ADDITIONAL INFORMATION </h3>
-                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
+
               </label>
               <br />
               <div class="form-outline">
@@ -1158,10 +1268,11 @@
             <div class="mb-1 text-white">
               <label class="form-label">
                 <h3 class="mt-2">TERMS OF SERVICES</h3>
-                <h5 class="mb-0 text-danger ">>>>>>>>>>>>>>></h5>
+
               </label>
               <br />
-              <div class="form-outline">
+
+              <div class="form-outline bg-light text-dark rounded p-3">
                 <ul>
                   <li>I understand that I am contracting with BayGreen for service and due to scheduling requirements, I
                     will be billed for service if I do not notify BayGreen of any change in service via the Schedule
@@ -1174,15 +1285,17 @@
                     to change, see <a href="https://baygreen.net/bg-rates.php">BayGreen Rates</a> for current rates,
                     late payments are subject a late fee of $5 late fee (or 5 percent over $100) and will lead to
                     cancellation of service until account is in good standing.</li>
-                </ul><input type="checkbox" name="agree_to_terms_of_service1958043527"
+                </ul>
+
+                <input type="checkbox" name="agree_to_terms_of_service1958043527"
                   value="I agree to the terms of service" id="agree_to_terms_of_service1958043527"><label
-                  for="agree_to_terms_of_service1958043527" style="display:inline;">I agree to the terms of
+                  for="agree_to_terms_of_service1958043527" style="display:inline;"> I agree to the terms of
                   service</label>
-                <br />
-                <br />
-                <input type="submit" value="Register">
 
               </div>
+              <input type="submit" value="Register" class="mb-3 mt-4">
+
+
 
 
             </div>
@@ -1197,41 +1310,44 @@
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items reg_box">
 
           <form>
-            <h3 class="text-white mt-3 mb-1 ">Contact Information</h3>
-            <div class="mb-1">
+            <h3 class="text-white mt-3 mb-0 ">CONTACT INFORMATION </h3>
+
+            <h4 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h4>
+
+            <div class="mb-3">
               <label class="form-label text-white">First Name (*required ) </label>
               <input type="text" class="form-control" required>
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">Last Name (*required ) </label>
               <input type=" text" class="form-control" required>
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">Main Phone (*required ) </label>
               <input type=" number" class="form-control" required>
             </div>
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">Alternate  Phone</label>
               <input type=" number" class="form-control" required>
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">Email (*required ) </label>
               <input type=" email" class="form-control" required>
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">Password</label>
               <input type=" password" class="form-control" required>
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">Conform Password</label>
               <input type=" password" class="form-control" required>
             </div>
-            <div class="mb-1">
+            <div class="mb-3">
               <label class="form-label text-white"">How did you hear aboutb us ? (*required ) </label>
              
             <select name=" how_did_you_hear_about_us_" id="how_did_you_hear_about_us_" class="form-select"
@@ -1254,20 +1370,23 @@
             </div>
 
 
-            <div class="mb-1">
-              <h3 class="text-white mt-2 mb-1">Billing Information</h3>
+            <div class="mb-3">
+              <h3 class="text-white mt-2 mb-1">BILLING INFORMATION </h3>
+
+              <h4 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h4>
+
               <se class="form-label text-white"">Billing Address  (*required ) </label>
               <input type=" password" class="form-control" required>
 
             </div>
-            <div class="mb-1">
+            <div class="mb-3">
 
               <label class="form-label text-white"">City (*required ) </label>
               <input type=" password" class="form-control" required>
 
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
 
               <label class="form-label text-white""> State (*required) </label>
              
@@ -1331,22 +1450,22 @@
                 </select>
             </div>
 
-            <div class="mb-1">
+            <div class="mb-3">
 
               <label class="form-label text-white""> Zip Code (*required ) </label>
             <input type=" password" class="form-control" required>
             </div>
 
-            <div class="mb-1 text-white">
+            <div class="mb-3 text-white">
               <label class="form-label text-white""> Billing (*required) </label>
             <br/>
             <input class=" form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <label class="form-check-label me-2 ms-1" for="flexRadioDefault1 ">
                   Email (Free!)
                 </label>
 
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <label class="form-check-label me-2 ms-1" for="flexRadioDefault1">
                   Mail ($2.50 convenience fee per invoice)
                 </label>
 
