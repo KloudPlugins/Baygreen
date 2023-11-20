@@ -1,0 +1,15 @@
+Hi Kalim, here's the adjustments I'd like on this round... 
+
+1. The blue section / "Vessel Information" has too small of a margin on left and right, I'd like the same side margins as the purple / "Register for Service" block. 2. This is on my iphone --the BayGreen logo is too far to the right and the pumpout logo is extremely small (both look fine on the web view, think this is only for the phone view).
+
+3. Love the click down menu for the number of tanks! I'd like the hierarchy to be more clear... A. Keep "First Tank" the same type size as "Number of Tanks" B. "First Tank" in upper lower (not all caps) C. Indent "First Tank" to line up with "Tank 1 Size" D. "Tank 1 Size" and all following text in that section, keep the same point size as the "Number of Tanks" E. Let's try using the arrows above "First Tank" and "Second Tank" and "Third Tank, but instead of orange, let's use our purple. Thinking this will help divide it up without conflicting with the sections.
+
+
+4. The paragraphs on "Terms of Service" I'd like a line of purple arrows between each paragraph. 5. The "register" button and the selection color (i.e. for "Email (Free!)" in this image, I'd like to change that to our orange color to stand out a bit.
+
+
+6. Overall, I'd like to get rid of the "(*required) " on most of the block--maybe just the "*" and then put "*Required sections must be filled out." in the purple section under "REGISTER FOR SERVICE".
+
+7. And there are quite a few typos, please double check the original text for those.
+
+8. I'd also like to increase the number of orange arrrows in the line--maybe 3x the number currently.
