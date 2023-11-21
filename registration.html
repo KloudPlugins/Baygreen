@@ -67,7 +67,7 @@
 
   <!-- Bckground Images -->
 
-  <div class="container-fluid">
+  <div class="container-fluid p-0" >
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-12">
         <div class="head_img1">
@@ -82,18 +82,16 @@
 
   <div class="main">
     <div class="container con_1">
-      <div class="row">
+      <div class="row align-content-center">
         <!-- <div class="container-items"> -->
-        <div class="col-md-2 p-0 col-sm-2 col-2 p-4 text-center">
-          <img src="./images/logo1.png" alt="" class="img-fluid" />
+        <div class="col-md-2 p-0 col-sm-3 col-3 text-center logo_img_size">
+          <img src="./images/logo1.png" alt="" class="img-fluid" style="width: 70%;" />
         </div>
 
-        <!-- <div class="col-md-5 col-5 mid ms-auto d-flex justify-content-end align-items-center">
-              <p style="font-size: 2.5vw;">KEEP THE BAY GREEN WITH</p>
-            </div> -->
+       
 
-        <div class="col-md-10 col-10 p-0 text-end">
-          <!-- <span class="d-sm-block d-md-block d-lg-none"  > KEEP THE BAY GREEN WITH </span> -->
+        <div class="col-md-10 col-9 col-sm-9 p-0 text-end">
+     
           <img src="./images/logo2.png" alt="" srcset="" class="img-fluid" style="width: 77%;" />
         </div>
         <!-- </div> -->
@@ -108,67 +106,69 @@
       <div class="row">
         <!-- 😊 First   Col  Started -->
 
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box5  sticky-bottom"  >
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box5"  >
           <h3 class="font_headers mt-3"  >REGISTER FOR SERVICE</h3>
         
 
-          <h6 class="mb-0 ">>>>>>>>>>>>>>></h6>
+          <h6 class="mb-0 ms-2">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>></h6>
 
-          <p>
+          <p class="ms-2">
 
-            Please do not use apostrophes, foot marks, accents or other special characters as they will delay
-            registration.Thank You for Using BayGreen.
+            Please do not use apostrophes, foot marks, accents or other special characters as they will delay registration. 
+            Thank you for using BayGreen!
 
           </p>
-          <h6 class="mb-0">>>>>>>>>>>>>>></h6>
+          <h6 class="mb-0 ms-2">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>></h6>
+
+          <p>*Required sections must be filled out.</p>
         </div>
 
         <!-- 😊 Second Col Started -->
 
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box2">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 items box2 ">
           <form>
-            <h3 class="text-white mt-3 mb-0">VESSEL INFORMATION</h3>
+            <h3 class="text-white mt-3 mb-0 ms-2  ">VESSEL INFORMATION</h3>
 
-            <h4 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h4>
+            <h4 class="mb-0 text-danger ms-2  ">>>>>>>>>>>>>>></h4>
 
-            <div class="mb-3 text-white">
-              <label for="vessel_name" class="form-label mb-0">Vessel Name*  </label>
-              <input type="text" class="form-control" required name="vessel_name" id="vessel_name" maxlength="250"
+            <div class="mb-3 text-white  ms-2 me-3 ">
+              <label for="vessel_name" class="form-label mb-0 ms-2 ">Vessel Name*  </label>
+              <input ="text" class="form-control  " required name="vessel_name" id="vessel_name"  
                 value="">
             </div>
 
 
-            <div class="mb-3 text-white">
-              <label for="vessel_color" class="form-label mb-0">Vessel Color* </label>
-              <input type="text" class="form-control" required name="vessel_color" id="vessel_color" maxlength="250"
+            <div class="mb-3 text-white ms-2 me-3">
+              <label for="vessel_color" class="form-label mb-0 ms-2 ">Vessel Color* </label>
+              <input type="text" class="form-control  " required name="vessel_color" id="vessel_color"   
                 value="">
             </div>
 
 
-            <div class="mb-3 text-white">
-              <label for="vessel_manufacturer_and_size" class="form-label mb-0">Vessel Manufacturer* </label>
-              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size" maxlength="250"
-                value="" class="form-control" required>
+            <div class="mb-3 text-white ms-2 me-3">
+              <label for="vessel_manufacturer_and_size" class="form-label mb-0 ms-2 ">Vessel Manufacturer and Size* </label>
+              <input type="text" name="vessel_manufacturer_and_size" id="vessel_manufacturer_and_size"   
+                value="" class="form-control " required>
             </div>
 
 
-            <div class="mb-3 text-white">
-              <label for="dock_and_slip" class="form-label mb-0">Dock and Slip* </label>
-              <input type="text" name="dock_and_slip" id="dock_and_slip" maxlength="250" value="" class="form-control"
+            <div class="mb-3 text-white ms-2 me-3">
+              <label for="dock_and_slip" class="form-label mb-0 ms-2">Dock and Slip* </label>
+              <input type="text" name="dock_and_slip " id="dock_and_slip"    value="" class="form-control"
                 required>
             </div>
 
 
-            <div class="mb-3 text-white">
-              <label for="cf_number__if_visible_on_boat_" class="form-label mb-0">CF Number (if visible on boat) </label>
-              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_"  maxlength="250" value="" class="form-control">
+            <div class="mb-3 text-white ms-2 me-3">
+              <label for="cf_number__if_visible_on_boat_" class="form-label mb-0 ms-2">CF Number (if visible on boat)</label>
+              <input type="text" name="cf_number__if_visible_on_boat_" id="cf_number__if_visible_on_boat_"     value="" class="form-control">
             </div>
 
 
-            <div class="mb-3 text-white">
-              <label id="vessel_type_fieldset" class="form-label mb-0">Vessel Type* </label>
+            <div class="mb-3 text-white ms-2" >
+              <label id="vessel_type_fieldset" class="form-label  required mb-0">Vessel Type* </label>
               <br>
-              <input class="form-check-input me-0 ms-0" type="radio" id="vessel_type1104290778" required name="vessel_type" value="sail">
+              <input class="form-check-input me-0 ms-0" type="radio"    id="vessel_type1104290778" required name="vessel_type" value="sail">
               <label for="vessel_type1104290778" class="form-check-label">
                 Sail
               </label>
@@ -183,15 +183,13 @@
                 Houseboat
               </label>
 
-
-
             </div>
 
 
 
 
 
-            <div class="mb-3 text-white">
+            <div class=" text-white ms-2">
               <label id="vessel_type_fieldset" class="form-label mb-0">Number of Tanks? </label>
 
               <input class="form-check-input me-0 ms-3" type="radio" id="tank_count_1" required name="tank_count" value="1" onclick="adjustTankDisplay(document.getElementById('tank_count_1'));">
@@ -215,16 +213,18 @@
 
             <div class="mb-0 text-white" style="display: none;" id="tank_1">
               <label for="tank_1_size" class="form-label mb-0">
-                <h3 class="mt-2">FIRST TANK*</h3>
+                <h4 style="color:#483d8b;"  class="mb-0  ms-2">>>>>>>>>>>>>>></h4>
+
+                <h6 class=" ms-2">First Tank*</h6>
 
               </label>
 
               <br />
 
-              <h4 class="ms-3">Tank 1 Size*</h4>
-              <select name="tank_1_size" id="tank_1_size" class="form-select ms-3 ">
+              <h6 class="ms-3 ">Tank 1 Size*</h6>
+              <select name="tank_1_size" id="tank_1_size" class="form-select me-2 ">
                 <option value="" selected="selected"></option>
-                <option value="1 - 5 gallons">1 - 5 gallons</option>
+                <option value="1 - 5 gallons" selected>1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
                 <option value="11 - 15 gallons">11 - 15 gallons</option>
                 <option value="16 - 20 gallons">16 - 20 gallons</option>
@@ -257,13 +257,13 @@
 
               <div class="mb-1 ms-3">
                 <label class="form-label mb-0">
-                  <h4 class="mt-3">Tank 1 Location </h4>
+                  <h6 class="mt-3">Tank 1 Location </h6>
 
 
 
                 </label>
                 <br />
-                Click on the boat to select the location
+                Click on the boat to select the location.
                 <table class="col-sm-4 col-md-4 col-lg-4 col-xl-4 items box2"
                   style="background-image: url(./images/outline-normal.png); background-repeat: no-repeat;  background-size: contain;">
                   <tbody>
@@ -306,16 +306,16 @@
               </div>
 
 
-              <div class="mb-1 text-white mt-3 ms-3">
+              <div class=" text-white  ms-2">
                 <label class="form-label mb-0" id="tank_1_type_fieldset">
 
-                  <h4 class=" ">Tank 1 Type*</h4>
+                  <h6 class=" ">Tank 1 Type*</h6>
                 </label>
                 </br>
 
                 <input class="form-check-input  " type="radio" id="tank_1_type1936202210" name="tank_1_type"
                   value="Stainless Steel">
-                <label for="tank_1_type1936202210" class="form-check-label me-2 ms-1">
+                <label for="tank_1_type1936202210"  class="form-check-label me-2 ms-1" checked>
                   Stainless Steel
                 </label>
 
@@ -344,13 +344,15 @@
 
             </div>
 
-            <div class="mb-1 text-white" style="display: none;" id="tank_2">
+            <div class=" text-white" style="display: none;" id="tank_2">
               <label for="tank_2_size" class="form-label mb-0">
-                <h3 class="mt-2">SECOND TANK*</h3>
+                <h4 style="color:#483d8b;"  class="mb-0  ms-2">>>>>>>>>>>>>>></h4>
+
+                <h6 class=" ms-2">Second Tank*</h6>
               </label>
               
-              <h4 class="ms-3">Tank 2 Size*</h4>
-              <select name="tank_2_size" id="tank_2_size" class="form-select ms-3" aria-label="Default select example">                
+              <h6 class="ms-3">Tank 2 Size*</h6>
+              <select name="tank_2_size" id="tank_2_size" class="form-select me-2" aria-label="Default select example">                
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
                 <option value="11 - 15 gallons">11 - 15 gallons</option>
@@ -384,11 +386,11 @@
 
               <div class="mb-1 ms-3">
                 <label class="form-label mb-0">
-                  <h4 class="mt-2">Tank 2 Location </h4>
+                  <h6 class="mt-2">Tank 2 Location </h6>
 
                 </label>
                 <br />
-                Click on the boat to select the location
+                Click on the boat to select the location.
                 <table class="col-sm-4 col-md-4 col-lg-4 col-xl-4 items box2"
                   style="background-image: url(./images/outline-normal.png); background-repeat: no-repeat; background-size: contain;">
                   <tbody>
@@ -432,7 +434,7 @@
 
               <div class="mb-1 text-white ms-3">
                 <label class="form-label mb-0" id="tank_2_type_fieldset">
-                  <h4 class=" mt-3">Tank 2 Type</h4>
+                  <h6 class=" mt-3">Tank 2 Type</h6>
                 </label>
                 </br>
 
@@ -457,7 +459,7 @@
                   Bag
                 </label>
                 <br />
-                <input class="form-check-input" checked type="radio" id="tank_2_type389479985" name="tank_2_type"
+                <input class="form-check-input" type="radio" id="tank_2_type389479985" name="tank_2_type"
                   value="I don't know">
                 <label for="tank_2_type389479985" class="form-check-label me-2 ms-1">
                   I don't know
@@ -465,14 +467,17 @@
               </div>
             </div>
 
-            <div class="mb-3  text-white" style="display: none;" id="tank_3">
+            <div class="  text-white" style="display: none;" id="tank_3">
               <label for="tank_3_size" class="form-label mb-0">
-                <h3 class="mt-2">THIRD TANK* </h3>
+
+                <h4 style="color:#483d8b;"  class="mb-0  ms-2">>>>>>>>>>>>>>></h4>
+
+                <h6 class=" ms-2">Third Tank* </h6>
               </label>
 
-              <h4 class="ms-3"> Tank 3 Size </h4>
+              <h6 class="ms-3"> Tank 3 Size </h6>
 
-              <select name="tank_3_size" id="tank_3_size" class="form-select ms-3" aria-label="Default select example">
+              <select name="tank_3_size" id="tank_3_size" class="form-select me-2" aria-label="Default select example">
                 <option value="" selected="selected">I just have one or two tanks</option>
                 <option value="1 - 5 gallons">1 - 5 gallons</option>
                 <option value="6 - 10 gallons">6 - 10 gallons</option>
@@ -507,10 +512,10 @@
 
               <div class="mb-1 mt-3 ms-3">
                 <label class="form-label mb-0">
-                  <h4 class="">Tank 3 Location </h4>
+                  <h6 class="">Tank 3 Location </h6>
                 </label>
                 <br />
-                Click on the boat to select the location
+                Click on the boat to select the location.
                 <table class="col-sm-4 col-md-4 col-lg-4 col-xl-4 items box2"
                   style="background-image: url(./images/outline-normal.png); background-repeat: no-repeat; background-size: contain;">
                   <tbody>
@@ -554,7 +559,7 @@
 
               <div class="mb-0 mt-3 text-white  ms-3">
                 <label id="tank_3_type_fieldset" class="form-label mb-0">
-                  <h4 class="">Tank 3 Type </h4>
+                  <h6 class="">Tank 3 Type </h6>
                 </label>
                 </br>
 
@@ -659,8 +664,8 @@
 
             <div class="mb-1 text-white">
               <label class="form-label mb-0">
-                <h3 class="mt-3 mb-0">VESSEL LOCATION</h3>
-                <h5 class="mb-0 text-danger">>>>>>>>>>>>>>></h5>
+                <h3 class="mt-3 mb-0 ms-2">VESSEL LOCATION</h3>
+                <h5 class="mb-0 text-danger ms-2">>>>>>>>>>>>>>></h5>
               </label>
               </br>
 
@@ -1151,7 +1156,7 @@
             </div>
 
 
-            <div class="mb-1 text-white">
+            <div class="mb-1 text-white  ms-2 me-3">
               <label class="form-label mb-0">
                 <h3 class="mt-3 mb-0">SCHEDULE YOUR SERVICE</h3>
                 <h4 class="mb-0 text-danger">>>>>>>>>>>>>>></h4>
@@ -1162,7 +1167,7 @@
               <select name="service_requested" id="service_requested" class="form-select"
                 aria-label="Default select example">
                 <option value="" selected="selected"></option>
-                <option value="Weekly">Weekly</option>
+                <option value="Weekly" >Weekly</option>
                 <option value="Bi-Weekly">Bi-Weekly</option>
                 <option value="Tri-Weekly">Tri-Weekly</option>
                 <option value="Every 4 Weeks">Every 4 Weeks</option>
@@ -1173,14 +1178,14 @@
               </select>
             </div>
 
-              <div class="mb-1 text-white">
+              <div class="mb-1 text-white  ms-2 me-3">
 
                 <label for="service_start">Service Start* <span class="required"></span></label>
 
 
                 <select name="service_start" id="service_start" class="form-select" aria-label="Default select example">
                   <option value="" selected="selected"></option>
-                  <option value="Schedule me for the next available time">Schedule me for the next available time
+                  <option value="Schedule me for the next available time "  >Schedule me for the next available time
                   </option>
                   <option value="I'll call or use the online Schedule Service form">I'll call or use the online Schedule
                     Service form</option>
@@ -1189,7 +1194,7 @@
               </div>
             
 
-            <div class="mb-1 text-white">
+            <div class="mb-1 text-white  ms-2 me-3">
               <label class="form-label mb-0">
                 <h3 class="mt-3 mb-0" id="pump_out_log_reporting_header">PUMP OUT LOG REPORTING</h3>
                 <h4 class="mb-0 text-danger">>>>>>>>>>>>>>></h4>
@@ -1219,7 +1224,7 @@
             </div>
 
 
-            <div class="mb-1 text-white">
+            <div class="mb-1 text-white ms-2 me-3">
               <label class="form-label mb-0" id="pump_out_log_reporting_for_berkeley_marina_fieldset">
                 <h3 class="mt-3 mb-0">ADDITIONAL INFORMATION </h3>
                 <h4 class="mb-0 text-danger">>>>>>>>>>>>>>></h4>
@@ -1248,46 +1253,46 @@
 
             <h4 class="mb-0 text-danger   ">>>>>>>>>>>>>>></h4>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
               <label class="form-label text-white mb-0">First Name*</label>
               <input type="text" class="form-control" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
               <label class="form-label text-white mb-0">Last Name* </label>
               <input type=" text" class="form-control" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
               <label class="form-label text-white mb-0">Main Phone* </label>
               <input type=" number" class="form-control" required>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
               <label class="form-label text-white mb-0">Alternate  Phone</label>
               <input type=" number" class="form-control" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3" >
               <label class="form-label text-white mb-0">Email*</label>
               <input type=" email" class="form-control" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
               <label class="form-label text-white mb-0">Password</label>
               <input type=" password" class="form-control" required>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
               <label class="form-label text-white mb-0">Conform Password</label>
               <input type=" password" class="form-control" required>
             </div>
-            <div class="mb-3">
-              <label class="form-label text-white mb-0">How did you hear aboutb us ? * </label>
+            <div class="mb-3 ms-2 me-3">
+              <label class="form-label text-white mb-0">How did you hear about us?* </label>
              
             <select name=" how_did_you_hear_about_us_" id="how_did_you_hear_about_us_" class="form-select"
                 aria-label="Default select example">
                 <option value="" selected="selected"></option>
-                <option value="Google search">Google search</option>
+                <option value="Google search " selected>Google search</option>
                 <option value="Business card or other literature">Business card or other literature</option>
                 <option value="Marina Program">Marina Program</option>
                 <option value="MPC Boaters Directory">MPC Boaters Directory</option>
@@ -1304,22 +1309,22 @@
             </div>
 
 
-            <div class="mb-1">
-              <h3 class="text-white mt-3 mb-0">BILLING INFORMATION </h3>
+            <div class="mb-1 ms-2 me-3">
+              <h3 class="text-white mt-3 mb-0 ">BILLING INFORMATION </h3>
               <h4 class="mb-0 text-danger">>>>>>>>>>>>>>></h4>
 
               <label class="form-label text-white mb-0">Billing Address* </label>
               <input type=" password" class="form-control" required>
 
             </div>
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
 
               <label class="form-label text-white mb-0">City*</label>
               <input type=" password" class="form-control" required>
 
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
 
               <label class="form-label text-white mb-0"> State*</label>
              
@@ -1383,21 +1388,25 @@
                 </select>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 ms-2 me-3">
 
-              <label class="form-label text-white mb-0"> Zip Code* </label>
+              <label class="form-label text-white mb-0 "> Zip Code* </label>
             <input type=" password" class="form-control" required>
             </div>
 
-            <div class="mb-3 text-white">
-              <label class="form-label text-white mb-0"> Billing*</label>
+            <div class="mb-3 text-white  ms-2 me-3">
+              <label class="form-label text-white mb-0 "> Billing*</label>
+
             <br/>
-            <input class=" form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+
+            <input class=" form-check-input " checked type="radio" id="color_radio"  name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label me-2 ms-1" for="flexRadioDefault1 ">
                   Email (Free!)
                 </label>
+
                 <br>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+
+                <input class="form-check-input " type="radio" id="color_radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label me-2 ms-1" for="flexRadioDefault1">
                   Mail ($2.50 convenience fee per invoice)
                 </label>
@@ -1405,35 +1414,45 @@
             </div>
 
             
-            <div class="mb-1 text-white">
+            <div class="mb-1 text-white ms-2 me-3">
               <label class="form-label mb-0">
-                <h3 class="mt-3 mb-0">TERMS OF SERVICES</h3>
+                <h3 class="mt-3 mb-0">TERMS OF SERVICE</h3>
                 <h4 class="mb-0 text-danger">>>>>>>>>>>>>>></h4>
               </label>
               <br />
 
               <div class="form-outline bg-light text-dark rounded p-3">
                 <ul>
-                  <li>I understand that I am contracting with BayGreen for service and due to scheduling requirements, I
-                    will be billed for service if I do not notify BayGreen of any change in service via the Schedule
-                    Service form in my BayGreen online account within 48 hours of my scheduled service.</li>
-                  <li>Clean up resulting from overflows are subject to a $135 per hour fee with a minimum of $500 during
-                    COVID concerns.</li>
-                  <li>Service rotations require autopay set up, service will be ON CALL until autopay is set up
-                    (following screen will have a link for set up).</li>
-                  <li>Payments are due by the date indicated on the billing statement, prices and schedules are subject
-                    to change, see <a href="https://baygreen.net/bg-rates.php">BayGreen Rates</a> for current rates,
-                    late payments are subject a late fee of $5 late fee (or 5 percent over $100) and will lead to
-                    cancellation of service until account is in good standing.</li>
+                  <li>
+                    I understand that I am contracting with BayGreen for service and due to scheduling requirements, I will be billed for service if I do not notify BayGreen of any change in service via the Schedule Service form in my BayGreen online account within 48 hours of my scheduled service.
+                  </li>
+
+                    <h4 style="color:#483d8b;"  class="mb-0  ms-2">>>>>>>>>>>>>>></h4>
+
+                  <li>
+                    Clean up resulting from overflows are subject to a $135 per hour fee with a minimum of $500 during COVID concerns.
+                  </li>
+
+                  <li>
+                    Service rotations require autopay set up, service will be ON CALL until autopay is set up (following screen will have a link for set up).
+                  </li>
+
+                    <h4 style="color:#483d8b;"  class="mb-0  ms-2">>>>>>>>>>>>>>></h4>
+                    
+                  <li>Payments are due by the date indicated on the billing statement, prices and schedules are subject to change, see <a href="https://baygreen.net/bg-rates.php">BayGreen Rates</a> for current rates, late payments are subject a late fee of $5 late fee (or 5 percent over $100) and will lead to cancellation of service until account is in good standing.</li>
+                    
+                    <h4 style="color:#483d8b;"  class="mb-0  ms-2">>>>>>>>>>>>>>></h4>
                 </ul>
 
                 <input type="checkbox" name="agree_to_terms_of_service1958043527"
-                  value="I agree to the terms of service" id="agree_to_terms_of_service1958043527"><label
-                  for="agree_to_terms_of_service1958043527" style="display:inline;"> I agree to the terms of
-                  service</label>
+                  value="I agree to the terms of service" id="agree_to_terms_of_service1958043527">
+                  
+                  <label
+                  for="agree_to_terms_of_service1958043527" style="display:inline;"> I agree to the terms of service
+                </label>
 
               </div>
-              <input type="submit" value="Register" class="mb-3 mt-4">
+              <input  type="submit" value="Register" class="mb-3 mt-4 text-white rounded" style="background-color: #f15d2a;">
 
             </div>
 

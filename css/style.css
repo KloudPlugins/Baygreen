@@ -1,5 +1,10 @@
 *{
   font-family: 'Oswald', sans-serif;
+
+  
+}
+body{
+  margin: 0%;
 }
 
 @media screen and (min-width: 1400px) {
@@ -119,9 +124,7 @@
   }
 }
 
-/* .head_img1{
- 
-} */
+
 
 /* Navbar */
 
@@ -150,27 +153,11 @@ width: 100%;
   text-align: right;
 }
 
-/* 
-.right > img {
-  width: 80%;
-  height: 80%;  
-} */
-
-
-/*  end row 2 nav2 */
-/* .items {
-
-   padding-left: 70px;
-  padding-right: 70px; 
-} */
 
 .item_h3_font {
     font-size: 30pt;
 }
 
-/* .font_headers {
-  font-size: 30pt;
-} */
 
 .items > h3 {  
   white-space: nowrap; 
@@ -195,25 +182,22 @@ width: 100%;
   padding-right: 15px; 
 }
 
+
+
+.vessel_info{
+  
+  text-align: left;
+  margin-top: 20px;
+  color: white;
+
+
+}
+.vessel_detail{
+  padding-left: 15px;
+  padding-right: 15px; 
+
+}
 .items > h6 {
-  /* font-weight: 700 !important; */
-  font-size: 16pt;
-  color:#f15d2a; 
-  text-align:left;
-  padding-left: 15px;
-  padding-right: 15px; 
-}
-
-.items >form > h6 {
-  /* font-weight: 700 !important; */
-  font-size: 16pt;
-  color:#f15d2a; 
-  text-align:left;
-  padding-left: 15px;
-  padding-right: 15px; 
-}
-
-form > h6 {
   /* font-weight: 700 !important; */
   font-size: 16pt;
   color:#f15d2a; 
@@ -264,16 +248,11 @@ background-color:#006400  ;
   display: flex;
   justify-content: center;
   align-items: center;
-
- 
 }
-
-
 
 .icon_img{
   width: 35px;  
 }
-
 
 
 /* 😊 Registrtion form color  */
@@ -288,4 +267,33 @@ ul > li{
 
 label {
   font-size: 20px;  
+}
+
+
+input[id='color_radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[id='color_radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #f15d2a;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
