@@ -1,7 +1,5 @@
 *{
   font-family: 'Oswald', sans-serif;
-
-  
 }
 body{
   margin: 0%;
@@ -23,7 +21,6 @@ body{
     white-space: nowrap;  
   }
 }
-
 
 @media screen and (max-width: 1399px) and (min-width: 1199px) {
   .head11 {
@@ -124,8 +121,6 @@ body{
   }
 }
 
-
-
 /* Navbar */
 
 .bg_container{
@@ -137,14 +132,6 @@ width: 100%;
   justify-content: space-evenly;
    flex-wrap: wrap; 
 }
-.left > img {
-  /* width: 150px;
-  height: 100px; */
-  /* align-items: start; */
-  /* margin-left: 80px; */
-  
-
-}
 
 .mid > p {
   font-size: 25px;
@@ -153,11 +140,9 @@ width: 100%;
   text-align: right;
 }
 
-
 .item_h3_font {
     font-size: 30pt;
 }
-
 
 .items > h3 {  
   white-space: nowrap; 
@@ -181,21 +166,6 @@ width: 100%;
   padding-left: 0.8rem;
   padding-right: 0.8rem; 
 }
-
-
-
-.vessel_info{
-  
-  text-align: left;
-  margin-top: 20px;
-  color: white;
-
-
-}
-/* .vessel_detail{
-  padding-left: 15px;
-  padding-right: 15px; 
-} */
 
 .items > h6 {
   /* font-weight: 700 !important; */
@@ -310,4 +280,15 @@ input[id='color_radio']:checked:after {
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
+}
+
+
+tbody{
+  background-image:url(../images/outline-normal.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  border: none;
+  background-position: center center;
+  max-width:100%
 }
