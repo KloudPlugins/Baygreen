@@ -253,7 +253,6 @@ label {
   font-size: 20px;  
 }
 
-
 input[id='color_radio']:after {
   width: 15px;
   height: 15px;
@@ -282,7 +281,6 @@ input[id='color_radio']:checked:after {
   border: 2px solid white;
 }
 
-
 tbody{
   background-image:url(../images/outline-normal.png);
   background-repeat: no-repeat;
@@ -292,3 +290,5 @@ tbody{
   background-position: center center;
   max-width:100%
 }
+
+
